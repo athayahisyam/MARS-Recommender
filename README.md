@@ -2,13 +2,12 @@
 
 ## Project Overview
 
-E-Learning didefinisikan sebagai komunikasi sinkron dan asinkron menggunakan teknologi elektronik untuk kebutuhan berfikir dan belajar secara kolaboratif [1].  Pada masa pandemi COVID-19, lebih dari 1.5 milyar siswa dan 63 juta pengajar [2, 3] terpaksa mengalami disrupsi dalam kegiatan belajar mengajar dan memaksa mereka untuk memodifikasi kurikulum dan sistem pengajaran mereka dari tatap muka ke daring [4]. 
+*E-Learning* didefinisikan sebagai komunikasi sinkron dan asinkron menggunakan teknologi elektronik untuk kebutuhan berfikir dan belajar secara kolaboratif [1].  Pada masa pandemi COVID-19, lebih dari 1.5 milyar siswa dan 63 juta pengajar [2, 3] terpaksa mengalami disrupsi dalam kegiatan belajar mengajar dan memaksa mereka untuk memodifikasi kurikulum dan sistem pengajaran mereka dari tatap muka ke daring [4]. 
 
 Pada studi kasus ini, University of Lille bersama dengan Mandarine Academy mengembangkan suatu *Massive Open Online Course* (MOOC) untuk mengoperasikan [Office 365](https://dileap.com/en/). MOOC memiliki lebih dari 3000 video yang memiliki total 120 jam pembelajaran. Tujuan dari MOOC ini sendiri adalah untuk mempercepat adaptasi pengguna terhadap peralatan Office 365 [5]. 
 
-Gambar 1. Portal MOOC Office 365 Mandarine Academy.
-
 ![Picture](https://raw.githubusercontent.com/athayahisyam/MARS-Recommender/main/media/officemoocMandarine.jpg)
+Gambar 1. Portal MOOC Office 365 Mandarine Academy.
 
 Untuk membantu pembelajar melakukan eksplorasi materi dalam MOOC, sistem rekomendasi digunakan. Sistem rekomendasi memprediksikan peringkat atau preferensi pengguna dalam menggunakan suatu produk [6]. Pada sistem *e-Learning*, sistem rekomendasi membantu pembelajar MOOC melakukan eksplorasi terhadap materi pembelajaran dan membantu pembelajar menerima konten sesuai dengan preferensi dan tujuan mereka [7], serta tempo pembelajaran mereka [4].
 
@@ -28,10 +27,9 @@ Penelitian ini fokus untuk menyelesaikan beberapa permasalahan tertentu, terangk
 Untuk menjawab pertanyaan (masalah) tersebut, projek ini dikembangkan dengan tujuan sebagai berikut: 
 
 - Model rekomendasi dikembangkan menggunakan pendekatan *Content-Based Filtering*.
-*Content-Based Filtering* membuat rekomendasi berdasarkan kemiripan konten yang dicerna oleh pengguna.
-
 - Langkah yang dilakukan adalah Analisis Data Univariat, *Data Preprocessing*, *Data Preparation*, dan Pemodelan *Content-Based Filtering*.
-Langkah-langkah tersebut akan dijabarkan lebih jauh pada subbab-subbab berikut.
+
+Salah satu tujuan dari pengembangan sistem rekomendasi adalah mencegah terjadinya *overload* informasi dengan menyaring dan menyingkirkan sumber pembelajaran yang tidak relevan dan menghasilkan rekomendasi konten yang lebih personal pada pelajar [7].
 
 ## Data Understanding
 
@@ -189,33 +187,59 @@ Sampai pada tahap ini, proses *data preparation* telah selesai, pada subbab beri
 
 ## Modeling
 
-Pada tahap ini dilakukan pelatihan model *Content-based Filtering*. Untuk mengukur similaritas, digunakan *cosine similarity*. Data pada data similaritas kemudian digunakan untuk membangun rekomendasi konten yang kemungkinan juga disukai oleh *user* tertentu. Dari hasil pelatihan dapat dilihat *Top 10* rekomendasi yakni.
+Pada tahap ini dilakukan pelatihan model *Content-based Filtering*. Untuk mengukur similaritas, digunakan *cosine similarity*. Data pada data similaritas kemudian digunakan untuk membangun rekomendasi konten yang kemungkinan juga disukai oleh *user* tertentu. 
 
-```python
-# masukkan variabel id disini, cek pada user_profile untuk user_id yang tersedia
-# masukkan jumlah rekomendasi
+Kemiripan kosinus (*cosine similarity*) adalah ukuran kesamaan antara dua vektor bukan nol dalam ruang produk dalam. Dalam konteks *content-based filtering*, metode ini mengukur kesamaan antara `user-profiles` (mewakili preferensi pengguna) dan `course-embeddings` (mewakili karakteristik konten).
 
-user_id = 608559
-num_recommendations = 10
-user_recommendations = generate_user_recommendations(user_id, num_recommendations)
+*Cosine similarity* berkisar dari -1 hingga 1, di mana 1 menunjukkan vektor yang identik (*user-profile* dan *course embedding* memiliki kemiripan yang kuat), 0 menunjukkan vektor bersifat ortogonal (tidak berkorelasi), dan -1 menunjukkan vektor dalam arah yang berlawanan (berbeda secara jauh).
 
-print(user_recommendations)
-```
+*Cosine similarity* umumnya digunakan dalam sistem rekomendasi dengan *content-based filtering* karena bekerja dengan baik dengan data yang sedikit namun berdimensi tinggi, yang tipikal dalam sistem pembelajaran, dimana data yang tersedia hanya sedikit namun terdiri dari ragam fitur. *Cosine similarity* berfokus pada orientasi vektor ketimbang ukuran besarnya, membuatnya cocok untuk membandingkan representasi berbasis fitur (pada studi kasus ini, `user-profiles` dan `course-embeddings`).
 
-Kode diata menghasilkan:
+Projek ini menggunakan fungsi `cosine_similarity` dari scikit-learn yang menghitung *cosine similarity* untuk semua pasangan vektor (baris) pada `user-profiles` dan `course-embeddings`.
+Hasilnya adalah matriks kesamaan (*similarity matrix*), di mana setiap baris sesuai dengan skor kesamaan pengguna tertentu dengan semua kursus.
 
-197 How to communicate: who can help me? 
-199 How to search: find what you need 
-205 Office 2016 - new features and enhancements 
-249 Uses by job role: Human resources 
-250 Uses by job role: Assistant(s) 
-251 Uses by job role: Marketing and communication 
-585 Teams - Collaborate as a team 
-586 Teams - Communicate as a team 
-773 Run effective meetings with Teams 
-835 Discover the note taking app Name: name, dtype: object
+Tujuan pembuatan rekomendasi adalah mengidentifikasi N-konten teratas yang memiliki kemiripan yang kuat dengan preferensi pengguna. Rekomendasi yang dipersonalisasi sangat penting untuk memberikan saran konten kepada pengguna yang selaras dengan minat dan preferensi. Dengan menawarkan rekomendasi yang dipersonalisasi, pengalaman pengguna disempurnakan dan kemungkinan keterlibatan dan kepuasan pengguna ditingkatkan.
 
-Sampai disini model telah bekerja dan menghasilkan rekomendasi konten untuk pengguna MOOC Office 365. Karena keterbatasn sumber daya pengolahan data, hanya dilakukan pemodelan dengan satu jenis pendekatan. Pada penelitian berikutnya beberapa saran hal yang bisa dilakukan adalah:
+Untuk ID pengguna tertentu, indeks baris yang sesuai dari DataFrame profil pengguna diambil. Kemudian skor kesamaan dari matriks kesamaan diekstrak untuk pengguna tertentu tersebut. Berdasarkan skor kesamaan, diidentifikasi indeks konten N teratas yang memiliki nilai kesamaan tertinggi dengan preferensi pengguna. Terakhir, kami memetakan indeks kursus ini kembali ke ID item (ID konten) dan mengekstrak nama konten untuk memberikan rekomendasi konten yang telah dipersonalisasi.
+
+Dari hasil pelatihan dapat dilihat *Top 10* rekomendasi yang ditampilkan pada tabel 9 berikut ini.
+
+Tabel 9. Hasil *Top 10 Recommendation* 
+
+| ID  | Course Title                                  |
+| --- | --------------------------------------------- |
+| 197 | How to communicate: who can help me?          |
+| 199 | How to search: find what you need             |
+| 205 | Office 2016 - new features and enhancements   |
+| 249 | Uses by job role: Human resources             |
+| 250 | Uses by job role: Assistant(s)                |
+| 251 | Uses by job role: Marketing and communication |
+| 585 | Teams - Collaborate as a team                 |
+| 586 | Teams - Communicate as a team                 |
+| 773 | Run effective meetings with Teams             |
+| 835 | Discover the note taking app Name: name       |
+
+## Evaluasi
+
+Tutorial pada kurikulum Dicoding tidak memberikan penjelasan detail mengenai tahap evaluasi pada model rekomendasi, evaluasi ini dilakukan secara mandiri berdasarkan modul-modul sebelumnya. Pada uji ini, dikarenakan keterbatasan sumberdaya dan waktu serta pemahaman yang terbatas, hanya uji presisi yang dapat dilaksanakan. 
+
+Metrik precision dihitung sebagai berikut:
+
+1. Untuk setiap pengguna dalam data *ground truth*:    
+    - Ambil daftar item yang telah pengguna berinteraksi dengan atau beri peringkat tinggi (item-item  relevan).
+    - Ambil daftar item yang direkomendasikan kepada pengguna oleh sistem rekomendasi.
+2. Hitung jumlah item yang relevan dalam rekomendasi. Ini adalah irisan antara himpunan item-item yang relevan dan himpunan item-item yang direkomendasikan.
+3. Hitung precision untuk pengguna tersebut:    
+    - *Precision* = (Jumlah item yang relevan dalam rekomendasi) / (Total jumlah item yang direkomendasikan)
+4. Ulangi langkah 1 hingga 3 untuk semua pengguna dalam data *ground truth*.
+5. Hitung rata-rata *precision* dengan menjumlahkan nilai precision untuk semua pengguna dan membaginya dengan jumlah total pengguna.
+Nilai *precision* berada di antara 0 dan 1. *Precision* 1 menunjukkan bahwa semua item yang direkomendasikan relevan bagi pengguna, sementara *precision* 0 berarti tidak ada item yang direkomendasikan yang relevan.
+
+Hasil dari uji presisi menunjukkan model rekomendasi dapat memberikan rekomendasi akurat sebanyak 50% dari data pada penggunaan *explicit rating*. Hal ini bisa terjadi karena kurangnya dimensi yang digunakan pada data `users_profile`.
+
+## Kesimpulan
+
+Sampai disini model telah bekerja dan menghasilkan rekomendasi konten untuk pengguna MOOC Office 365. Karena keterbatasn sumber daya pengolahan data, hanya dilakukan pemodelan dengan satu jenis pendekatan. Berdasarkan hasil. Pada penelitian berikutnya beberapa saran hal yang bisa dilakukan adalah:
 
 1. Melakukan pengolahan data deskripsi menggunakan model *Natural Language Processing*.
 2. Melakukan eksperimen pada hubungan antara empat tabel lebih lanjut.
