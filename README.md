@@ -224,7 +224,7 @@ Tabel 9. Hasil *Top 10 Recommendation*
 
 Evaluasi pada sistem rekomendasi dilakukan dengan metrik *precision*. Metrik tersebut digunakan dengan cara membandingkan antara rekomendasi yang diberikan dengan data konten yang diambil oleh pengguna. Semisal dari 10 rekomendasi, ditemukan bahwa 5 dari rekomendasi digunakan oleh pengguna, artinya presisi dari model rekomendasi adalah 50%
 
-Pada studi kasus ini, metrik precision dihitung sebagai berikut:
+Pada studi kasus ini, metrik *precision* dihitung sebagai berikut:
 
 1. Untuk setiap pengguna dalam data *ground truth*:    
     - Ambil daftar item yang telah pengguna berinteraksi dengan atau beri peringkat tinggi (item-item  relevan).
@@ -234,9 +234,18 @@ Pada studi kasus ini, metrik precision dihitung sebagai berikut:
     - *Precision* = (Jumlah item yang relevan dalam rekomendasi) / (Total jumlah item yang direkomendasikan)
 4. Ulangi langkah 1 hingga 3 untuk semua pengguna dalam data *ground truth*.
 5. Hitung rata-rata *precision* dengan menjumlahkan nilai precision untuk semua pengguna dan membaginya dengan jumlah total pengguna.
-Nilai *precision* berada di antara 0 dan 1. *Precision* 1 menunjukkan bahwa semua item yang direkomendasikan relevan bagi pengguna, sementara *precision* 0 berarti tidak ada item yang direkomendasikan yang relevan.
+Dari fungsi perhitungan diatas, nilai *precision* akan berbentuk dalam rentang antara 0 dan 1. *Precision* 1 menunjukkan bahwa semua item yang direkomendasikan relevan bagi pengguna, sementara *precision* 0 berarti tidak ada item yang direkomendasikan yang relevan.
 
-Hasil dari uji presisi menunjukkan model rekomendasi dapat memberikan rekomendasi akurat sebanyak 50% dari data pada penggunaan *explicit rating*. Hal ini bisa terjadi karena kurangnya dimensi yang digunakan pada data `users_profile`.
+Sebagai contoh pada tabel 10 ditampilkan perbandingan konten yang ditonton dan yang direkomendasikan pada`user 605220`. 
+
+| ID     | Video | Recommendation | Keterangan |
+| ------ | ----- | -------------- | ---------- |
+| 605220 | 197   | 197            | Match      |
+|        | 199   | 199            | Match      |
+|        | 251   | 205            | Unmatched  |
+|        | 513   | -              | Unmatched  | 
+
+Hasil dari uji presisi menunjukkan model rekomendasi dapat memberikan rekomendasi akurat sebanyak 2/4 atau 50% (0.5555...) dari data pada penggunaan *explicit rating*. Hal ini bisa terjadi karena kurangnya dimensi yang digunakan pada data `users_profile`.
 
 ## Kesimpulan
 
