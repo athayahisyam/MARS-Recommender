@@ -7,6 +7,7 @@
 Pada studi kasus ini, University of Lille bersama dengan Mandarine Academy mengembangkan suatu *Massive Open Online Course* (MOOC) untuk mengoperasikan [Office 365](https://dileap.com/en/). MOOC memiliki lebih dari 3000 video yang memiliki total 120 jam pembelajaran. Tujuan dari MOOC ini sendiri adalah untuk mempercepat adaptasi pengguna terhadap peralatan Office 365 [5]. 
 
 ![Picture](https://raw.githubusercontent.com/athayahisyam/MARS-Recommender/main/media/officemoocMandarine.jpg)
+
 Gambar 1. Portal MOOC Office 365 Mandarine Academy.
 
 Untuk membantu pembelajar melakukan eksplorasi materi dalam MOOC, sistem rekomendasi digunakan. Sistem rekomendasi memprediksikan peringkat atau preferensi pengguna dalam menggunakan suatu produk [6]. Pada sistem *e-Learning*, sistem rekomendasi membantu pembelajar MOOC melakukan eksplorasi terhadap materi pembelajaran dan membantu pembelajar menerima konten sesuai dengan preferensi dan tujuan mereka [7], serta tempo pembelajaran mereka [4].
@@ -41,11 +42,10 @@ Tabel ini menampilkan data pengguna pada MOOC Office 365. Tabel 1 menampilkan st
 
 Tabel 1. Deskripsi Tabel `Users`
 
-| Fitur   | Deskripsi          | Tipe     | `Count` |
+| Fitur   | Deskripsi          | Tipe     | `Count` | 
 | ------- | ------------------ | -------- | ------- |
 | User ID | Identifikasi unik  | Int64    | 9902    |
 | Job     | Kategori pekerjaan | Category | 1409    |
-|         |                    |          |         |
 
 Pada tabel 1, dapat dilihat bahwa jumlah pengguna adalah 9902 pengguna. Adapun data pekerjaan tidak sama dengan data pengguna, hal ini disebabkan karena menambahkan pekerjaan pada sistem bukanlah hal yang *mandatory* [8].
 
@@ -109,6 +109,7 @@ Pada tabel `Items`, preproses yang dilakukan adalah dengan mengisi data *null va
 Data fitur *difficulty* diisi dengan algoritma *Random Forest*, yang mampu menangkap hubungan kompleks antara variabel dalam dataset, selain itu RF juga menjaga distribusi data. Pada studi kasus ini, fitur-fitur yang digunakan untuk mengisi kategori yang kosong pada variabel *difficulty* adalah *number of views* dan *duration*. Dengan data *train* adalah data yang memiliki fitur *difficulty* terisi dan data *test* berisi data dengan fitur *difficulty* kosong. Hasil dari imputasi menggunakan algoritma RF ditampilkan pada gambar 2 berikut.
 
 ![Random Forest Imputation Result](https://raw.githubusercontent.com/athayahisyam/MARS-Recommender/main/media/randomforest_result.png)
+
 Gambar 2. Hasil Imputasi menggunakan Algoritma Random Forest
 
 Dari hasil yang telah diberikan, dapat dilihat bahwa penambahan yang terjadi lebih banyak pada kategorisasi item sebagai level *beginner*.
@@ -200,7 +201,7 @@ Hasilnya adalah matriks kesamaan (*similarity matrix*), di mana setiap baris ses
 
 Tujuan pembuatan rekomendasi adalah mengidentifikasi N-konten teratas yang memiliki kemiripan yang kuat dengan preferensi pengguna. Rekomendasi yang dipersonalisasi sangat penting untuk memberikan saran konten kepada pengguna yang selaras dengan minat dan preferensi. Dengan menawarkan rekomendasi yang dipersonalisasi, pengalaman pengguna disempurnakan dan kemungkinan keterlibatan dan kepuasan pengguna ditingkatkan.
 
-Untuk ID pengguna tertentu, indeks baris yang sesuai dari DataFrame profil pengguna diambil. Kemudian skor kesamaan dari matriks kesamaan diekstrak untuk pengguna tertentu tersebut. Berdasarkan skor kesamaan, diidentifikasi indeks konten N teratas yang memiliki nilai kesamaan tertinggi dengan preferensi pengguna. Terakhir, kami memetakan indeks kursus ini kembali ke ID item (ID konten) dan mengekstrak nama konten untuk memberikan rekomendasi konten yang telah dipersonalisasi.
+Untuk ID pengguna tertentu, indeks baris yang sesuai dari DataFrame profil pengguna diambil. Kemudian skor kesamaan dari matriks kesamaan diekstrak untuk pengguna tertentu tersebut. Berdasarkan skor kesamaan, diidentifikasi indeks konten N teratas yang memiliki nilai kesamaan tertinggi dengan preferensi pengguna. Terakhir, indeks konten dipetakan kembali ke ID item (ID konten) dan mengekstrak nama konten untuk memberikan rekomendasi konten yang telah dipersonalisasi.
 
 Dari hasil pelatihan dapat dilihat *Top 10* rekomendasi yang ditampilkan pada tabel 9 berikut ini.
 
@@ -221,9 +222,9 @@ Tabel 9. Hasil *Top 10 Recommendation*
 
 ## Evaluasi
 
-Tutorial pada kurikulum Dicoding tidak memberikan penjelasan detail mengenai tahap evaluasi pada model rekomendasi, evaluasi ini dilakukan secara mandiri berdasarkan modul-modul sebelumnya. Pada uji ini, dikarenakan keterbatasan sumberdaya dan waktu serta pemahaman yang terbatas, hanya uji presisi yang dapat dilaksanakan. 
+Evaluasi pada sistem rekomendasi dilakukan dengan metrik *precision*. Metrik tersebut digunakan dengan cara membandingkan antara rekomendasi yang diberikan dengan data konten yang diambil oleh pengguna. Semisal dari 10 rekomendasi, ditemukan bahwa 5 dari rekomendasi digunakan oleh pengguna, artinya presisi dari model rekomendasi adalah 50%
 
-Metrik precision dihitung sebagai berikut:
+Pada studi kasus ini, metrik precision dihitung sebagai berikut:
 
 1. Untuk setiap pengguna dalam data *ground truth*:    
     - Ambil daftar item yang telah pengguna berinteraksi dengan atau beri peringkat tinggi (item-item  relevan).
