@@ -162,26 +162,26 @@ Sebagai contoh, apabila pengguna menonton konten dengan ID 825 dengan judul *Ins
 
 Tabel 2. Detail Item ID 825
 
-|item_id                        | name    | Theme |
-| --- | ------------------------------ | ------- | ----- |
-| 825 | Insert items in a presentation | Produce |       |
+| item_id | name                           | Theme   |
+| ------- | ------------------------------ | ------- |
+| 825     | Insert items in a presentation | Produce |
 
 Dari hasil pelatihan berdasarkan kemiripan fitur dari konten dengan ID 825 dengan konten lain dapat dilihat *Top 10* rekomendasi yang ditampilkan pada tabel 3 berikut ini.
 
 Tabel 3. Hasil *Top 10 Recommendation* berdasarkan tema dari konten ID 825
 
-| item_id | name                                       | Theme    |     |
-| ------- | ------------------------------------------ | -------- | --- |
-| 741     | The SUM function                           | Produce  |     |
-| 752     | Customize charts                           | Produce  |     |
-| 756     | Three ways to add numbers in Excel Online  | Produce  |     |
-| 784     | Manage conditional formatting              | Produce  |     |
-| 831     | Print Notes Pages as handouts              | Produce  |     |
-| 870     | Create custom animations with motion paths | Produce  |     |
-| 4410    | Introduction                               | Discover |     |
-| 12671   | Insert and customize a footnote            | Produce  |     |
-| 12695   | Start working together in a document       | Produce  |     |
-| 65432   | Functions and formulas                     | Produce  |     |
+| item_id | name                                       | Theme    |
+| ------- | ------------------------------------------ | -------- |
+| 741     | The SUM function                           | Produce  |
+| 752     | Customize charts                           | Produce  |
+| 756     | Three ways to add numbers in Excel Online  | Produce  |
+| 784     | Manage conditional formatting              | Produce  |
+| 831     | Print Notes Pages as handouts              | Produce  |
+| 870     | Create custom animations with motion paths | Produce  |
+| 4410    | Introduction                               | Discover |
+| 12671   | Insert and customize a footnote            | Produce  |
+| 12695   | Start working together in a document       | Produce  |
+| 65432   | Functions and formulas                     | Produce  |
 
 ## Evaluasi
 
