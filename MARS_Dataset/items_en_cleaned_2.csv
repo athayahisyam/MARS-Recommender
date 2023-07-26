@@ -1,0 +1,1166 @@
+item_id,language,name,nb_views,created_at,Difficulty,Theme,duration,type
+510,en,What is OneDrive for Business?,1114,2016,Beginner,Collaboration,42,tutorial
+511,en,"Add, restore, delete documents on OneDrive",547,2016,Beginner,Collaboration,122,tutorial
+512,en,Share documents,607,2016,Beginner,Collaboration,176,tutorial
+513,en,Recycle bin,278,2016,Beginner,Collaboration,46,tutorial
+514,en,Sync OneDrive for Business to your computer (Windows 10 - 1709),312,2016,Beginner,Collaboration,163,tutorial
+515,en,Work with documents in a synced library folder (Windows 10 - 1709),253,2016,Beginner,Collaboration,87,tutorial
+516,en,Change location where you sync libraries on your computer (Windows 10 - 1709),231,2016,Intermediate,Collaboration,113,tutorial
+526,en,Introduction and how to use Outlook Online,373,2016,Beginner,Communicate,111,tutorial
+527,en,"Create a new message, with attachments and options",208,2016,Beginner,Communicate,198,tutorial
+528,en,Search and built-in filters,209,2016,Beginner,Communicate,153,tutorial
+529,en,Create folders to sort your emails,242,2016,Beginner,Communicate,98,tutorial
+530,en,Signature settings,159,2016,Beginner,Communicate,80,tutorial
+531,en,Activate automatic replies,84,2016,Beginner,Communicate,102,tutorial
+532,en,Create and assign categories,105,2016,Beginner,Communicate,84,tutorial
+533,en,Create and use rules,121,2016,Intermediate,Communicate,155,tutorial
+534,en,Use flags for your emails,71,2016,Intermediate,Communicate,83,tutorial
+535,en,Use tasks in Outlook Web App,78,2016,Intermediate,Communicate,122,tutorial
+536,en,Reply to a meeting invitation,74,2016,Beginner,Communicate,84,tutorial
+537,en,Use advice and calendar introduction,67,2016,Beginner,Communicate,98,tutorial
+538,en,Create a meeting within the calendar,132,2016,Beginner,Communicate,96,tutorial
+539,en,Share or publish your calendar,97,2016,Intermediate,Communicate,55,tutorial
+540,en,Sharing your calendar,87,2016,Intermediate,Communicate,142,tutorial
+541,en,Publish your calendar or send it by email,58,2016,Advanced,Communicate,68,tutorial
+542,en,Use advice and People introduction,64,2016,Beginner,Communicate,153,tutorial
+543,en,Enrich the My contact folder,96,2016,Beginner,Communicate,120,tutorial
+544,en,Create a contact group,63,2016,Beginner,Organize,72,tutorial
+545,en,Introducing yammer,304,2016,Beginner,Discover,62,tutorial
+546,en,Overview of the functions of Yammer,114,2016,Beginner,Discover,179,tutorial
+547,en,Edit your profile in Yammer,60,2016,Beginner,Customize,57,tutorial
+548,en,"Create, animate, and delete a group",66,2016,Beginner,Share,187,tutorial
+549,en,Navigating in a group,65,2016,Beginner,Communicate,122,tutorial
+550,en,"Create, share and manage a note in a group",116,2016,Beginner,Communicate,112,tutorial
+551,en,Publish or reply to a message in a group,101,2016,Beginner,Communicate,143,tutorial
+552,en,Following topics in Yammer,64,2016,Beginner,Communicate,66,tutorial
+553,en,"Search, view, download and manage a file from a group",94,2016,Beginner,Communicate,226,tutorial
+554,en,Creating or modifying office documents directly in Yammer,49,2016,Beginner,Communicate,79,tutorial
+555,en,Following people in Yammer,50,2016,Beginner,Communicate,64,tutorial
+556,en,Operation of the Inbox,80,2016,Intermediate,Communicate,106,tutorial
+557,en,Sending or replying a private message,79,2016,Intermediate,Communicate,123,tutorial
+558,en,Search and join a group,61,2016,Intermediate,Research,82,tutorial
+559,en,Join the Yammer Network,65,2016,Intermediate,Research,81,tutorial
+561,en,How notifications work and setting preferences,94,2016,Intermediate,Research,105,tutorial
+615,en,Tell me what you want to do,184,2016,Beginner,Collaboration,57,tutorial
+618,en,Create and modify a group,93,2016,Beginner,Collaboration,139,tutorial
+619,en,Join a group,75,2016,Beginner,Collaboration,94,tutorial
+622,en,Clutter,79,2016,Beginner,Organize,91,tutorial
+733,en,Do things quickly with Tell Me,262,2016,Beginner,Discover,67,tutorial
+734,en,New Chart types,116,2016,Intermediate,Produce,112,tutorial
+735,en,One click Forecasting,118,2016,Advanced,Produce,61,tutorial
+736,en,3D Maps,110,2016,Advanced,Produce,101,tutorial
+737,en,Ink Equation,88,2016,Advanced,Produce,41,tutorial
+738,en,Share documents,85,2016,Intermediate,Share,73,tutorial
+739,en,Improved version history,84,2016,Intermediate,Produce,51,tutorial
+740,en,Add numbers,82,2016,Beginner,Produce,174,tutorial
+741,en,The SUM function,76,2016,Beginner,Produce,277,tutorial
+742,en,The SUMIF function,80,2016,Intermediate,Produce,327,tutorial
+743,en,Basic math,84,2016,Intermediate,Produce,148,tutorial
+744,en,Using functions,83,2016,Intermediate,Produce,312,tutorial
+745,en,Operator order,75,2016,Advanced,Produce,124,tutorial
+746,en,More complex formulas,95,2016,Advanced,Produce,257,tutorial
+747,en,Average a group of numbers,67,2016,Beginner,Produce,121,tutorial
+748,en,AVERAGEIF function,55,2016,Intermediate,Produce,184,tutorial
+749,en,Weighted average,75,2016,Beginner,Produce,126,tutorial
+750,en,Create a chart,53,2016,Beginner,Produce,52,tutorial
+751,en,"Create pie, bar, and line charts",63,2016,Beginner,Produce,193,tutorial
+752,en,Customize charts,71,2016,Beginner,Produce,268,tutorial
+753,en,Create a combo chart,137,2016,Beginner,Produce,107,tutorial
+754,en,Copy a chart,63,2016,Beginner,Produce,179,tutorial
+755,en,Top tips for working in Excel Online,92,2016,Beginner,Discover,215,tutorial
+756,en,Three ways to add numbers in Excel Online,55,2016,Beginner,Produce,195,tutorial
+757,en,Cell references,83,2016,Beginner,Produce,94,tutorial
+758,en,Copying formulas,92,2016,Beginner,Produce,180,tutorial
+759,en,AutoFill and Flash Fill,67,2016,Beginner,Produce,96,tutorial
+760,en,AutoFill,127,2016,Beginner,Produce,175,tutorial
+761,en,Flash Fill,97,2016,Intermediate,Produce,179,tutorial
+762,en,Add time,60,2016,Intermediate,Produce,205,tutorial
+763,en,Subtract time,78,2016,Intermediate,Produce,238,tutorial
+764,en,Insert headers and footers,79,2016,Intermediate,Produce,122,tutorial
+765,en,Page numbers in depth,48,2016,Intermediate,Produce,186,tutorial
+766,en,Header and footer details,67,2016,Intermediate,Produce,221,tutorial
+767,en,Freeze or lock panes,68,2016,Intermediate,Produce,66,tutorial
+768,en,Freeze panes in detail,100,2016,Beginner,Produce,210,tutorial
+769,en,Get going fast,107,2016,Beginner,Discover,98,tutorial
+770,en,A first look at Excel 2016,97,2016,Beginner,Discover,202,tutorial
+771,en,How things are organized,56,2016,Beginner,Discover,118,tutorial
+772,en,A closer look at the ribbon,54,2016,Beginner,Discover,235,tutorial
+773,en,"Save, publish, and share",65,2016,Beginner,Share,142,tutorial
+774,en,Sort and filter data,70,2016,Intermediate,Produce,98,tutorial
+775,en,Sort details,88,2016,Intermediate,Produce,286,tutorial
+776,en,AutoFilter details,49,2016,Intermediate,Produce,207,tutorial
+777,en,Advanced filter details,54,2016,Advanced,Produce,253,tutorial
+778,en,Drop-down lists,58,2016,Intermediate,Produce,55,tutorial
+779,en,Drop-down list settings,64,2016,Intermediate,Produce,254,tutorial
+780,en,Input and error messages,71,2016,Intermediate,Produce,172,tutorial
+781,en,Manage drop-down lists,58,2016,Intermediate,Produce,372,tutorial
+782,en,Take conditional formatting to the next level,54,2016,Advanced,Produce,217,tutorial
+783,en,Use formulas to apply conditional formatting,67,2016,Advanced,Produce,260,tutorial
+784,en,Manage conditional formatting,74,2016,Intermediate,Produce,270,tutorial
+785,en,Use conditional formatting,59,2016,Intermediate,Produce,122,tutorial
+786,en,Conditionally format dates,26,2016,Intermediate,Produce,158,tutorial
+787,en,Conditionally format text,65,2016,Intermediate,Produce,132,tutorial
+788,en,Copy and remove conditional formatting,65,2016,Intermediate,Produce,71,tutorial
+789,en,VLOOKUP: How and when to use it,93,2016,Advanced,Produce,158,tutorial
+790,en,The nuts and bolts of VLOOKUP,101,2016,Advanced,Produce,185,tutorial
+791,en,Look up values on a different worksheet,69,2016,Advanced,Produce,159,tutorial
+792,en,Copy a VLOOKUP formula,85,2016,Advanced,Produce,207,tutorial
+793,en,Advanced IF functions,64,2016,Intermediate,Produce,202,tutorial
+794,en,Nested IF functions,39,2016,Intermediate,Produce,210,tutorial
+795,en,IF with AND and OR,49,2016,Advanced,Produce,215,tutorial
+796,en,COUNTIFS and SUMIFS,72,2016,Advanced,Produce,330,tutorial
+797,en,AVERAGEIFS and IFERROR,42,2016,Advanced,Produce,285,tutorial
+798,en,Start using Excel,65,2016,Beginner,Discover,262,tutorial
+799,en,Save and print an Excel workbook,79,2016,Beginner,Discover,113,tutorial
+800,en,Insert columns and rows,54,2016,Beginner,Produce,256,tutorial
+801,en,Add formulas and references,148,2016,Beginner,Produce,172,tutorial
+802,en,Advanced formulas and references,86,2016,Beginner,Produce,246,tutorial
+803,en,Password protect workbooks and worksheets,63,2016,Beginner,Produce,147,tutorial
+804,en,Password protect workbooks and worksheets in detail,61,2016,Beginner,Produce,360,tutorial
+805,en,Print worksheets and workbooks,48,2016,Beginner,Produce,67,tutorial
+806,en,More print options,52,2016,Beginner,Produce,359,tutorial
+807,en,Print a worksheet on a specific number of pages,62,2016,Beginner,Produce,274,tutorial
+808,en,"Print headings, gridlines, formulas, and more",81,2016,Beginner,Produce,269,tutorial
+809,en,Work with macros,61,2016,Intermediate,Produce,280,tutorial
+810,en,Edit a macro,44,2016,Advanced,Produce,209,tutorial
+811,en,Save your macro,98,2016,Advanced,Produce,179,tutorial
+812,en,Assign a button to a macro,137,2016,Advanced,Produce,169,tutorial
+813,en,Do things quickly with Tell Me,98,2016,Beginner,Discover,49,tutorial
+814,en,Simpler sharing,39,2016,Beginner,Share,85,tutorial
+815,en,Work together on the same document,77,2016,Beginner,Collaboration,67,tutorial
+816,en,Improved version history,62,2016,Beginner,Analysis,51,tutorial
+817,en,Screen recording,46,2016,Intermediate,Produce,49,tutorial
+818,en,New chart types,55,2016,Intermediate,Produce,39,tutorial
+819,en,Ink Equation,54,2016,Advanced,Produce,40,tutorial
+820,en,Apply and change a theme,32,2016,Intermediate,Produce,313,tutorial
+821,en,Change the theme background,49,2016,Intermediate,Produce,338,tutorial
+822,en,Customize colors and save the theme,46,2016,Intermediate,Produce,285,tutorial
+823,en,Start using PowerPoint,30,2016,Beginner,Produce,126,tutorial
+824,en,Save a PowerPoint presentation,39,2016,Beginner,Discover,115,tutorial
+825,en,Insert items in a presentation,43,2016,Beginner,Produce,158,tutorial
+826,en,Finalize and review a presentation,67,2016,Beginner,Produce,122,tutorial
+827,en,Prepare and run your presentation,49,2016,Beginner,Produce,88,tutorial
+828,en,"Print slides, notes, or handouts",95,2016,Intermediate,Produce,168,tutorial
+829,en,Prepare a basic handout,27,2016,Intermediate,Produce,270,tutorial
+830,en,Edit headers and footers for handouts,41,2016,Intermediate,Produce,163,tutorial
+831,en,Print Notes Pages as handouts,54,2016,Intermediate,Produce,195,tutorial
+832,en,Print handouts,69,2016,Intermediate,Produce,272,tutorial
+833,en,Work with handout masters,38,2016,Intermediate,Produce,274,tutorial
+834,en,Use Presenter view,68,2016,Beginner,Communicate,119,tutorial
+835,en,Set up your presentation,41,2016,Beginner,Customize,105,tutorial
+836,en,Deliver your presentation,30,2016,Beginner,Communicate,195,tutorial
+837,en,Backgrounds in PowerPoint: First Steps,38,2016,Intermediate,Produce,200,tutorial
+838,en,90 seconds about PowerPoint Slide Masters,36,2016,Advanced,Produce,77,tutorial
+839,en,Picture backgrounds: Two methods,23,2016,Advanced,Produce,298,tutorial
+840,en,Removing backgrounds in PowerPoint,40,2016,Advanced,Produce,165,tutorial
+841,en,Get going fast,37,2016,Beginner,Discover,114,tutorial
+842,en,A first look at PowerPoint 2016,38,2016,Beginner,Discover,258,tutorial
+843,en,How things are organized,25,2016,Beginner,Discover,124,tutorial
+844,en,A closer look at the ribbon,33,2016,Beginner,Discover,260,tutorial
+845,en,"Save, publish, and share",21,2016,Beginner,Organize,144,tutorial
+846,en,Working with watermarks,247,2016,Beginner,Organize,229,tutorial
+847,en,Add a picture watermark,88,2016,Advanced,Produce,276,tutorial
+848,en,Remove a watermark,88,2016,Advanced,Produce,140,tutorial
+849,en,Design motion paths,39,2016,Advanced,Produce,150,tutorial
+850,en,Work with a motion path,35,2016,Advanced,Produce,170,tutorial
+851,en,Combine a path with other effects,63,2016,Advanced,Produce,289,tutorial
+852,en,Create a sequence with line paths,37,2016,Advanced,Produce,402,tutorial
+853,en,Apply paths to layered pictures,44,2016,Advanced,Produce,328,tutorial
+854,en,Use slide masters to customize a presentation,71,2016,Intermediate,Produce,187,tutorial
+855,en,Customize the slide master,81,2016,Intermediate,Produce,278,tutorial
+856,en,Customize master layouts,22,2016,Intermediate,Produce,297,tutorial
+857,en,Create a new slide master and layouts,66,2016,Intermediate,Produce,313,tutorial
+858,en,Add a sound effect to a transition,47,2016,Advanced,Produce,225,tutorial
+859,en,Add bullets to text,30,2016,Beginner,Produce,144,tutorial
+860,en,"Change font size, line spacing, and indentation",359,2016,Intermediate,Produce,309,tutorial
+861,en,Change list formatting on the slide master,281,2016,Intermediate,Produce,322,tutorial
+862,en,Add headers and footers to a presentation,38,2016,Intermediate,Produce,170,tutorial
+863,en,Add headers and footers to slides,35,2016,Beginner,Produce,232,tutorial
+864,en,Edit headers and footers on the slide master,98,2016,Beginner,Produce,296,tutorial
+865,en,Add sound effects to an animation,108,2016,Advanced,Produce,269,tutorial
+866,en,"Animate pictures, shapes, text, and other objects",79,2016,Beginner,Produce,242,tutorial
+867,en,Animate text,38,2016,Beginner,Produce,254,tutorial
+868,en,Animate pictures and shapes,42,2016,Beginner,Produce,257,tutorial
+869,en,Animate charts and SmartArt,57,2016,Intermediate,Produce,216,tutorial
+870,en,Create custom animations with motion paths,61,2016,Advanced,Produce,219,tutorial
+871,en,Trigger an animation effect,61,2016,Advanced,Produce,149,tutorial
+872,en,"Trigger multiple effects, including sound",53,2016,Advanced,Produce,223,tutorial
+873,en,Trigger a video,63,2016,Intermediate,Produce,246,tutorial
+874,en,Trigger text to play over a video,317,2016,Intermediate,Produce,178,tutorial
+875,en,Create a flow chart,87,2016,Intermediate,Produce,207,tutorial
+876,en,Draw and format flow chart shapes,59,2016,Advanced,Produce,255,tutorial
+877,en,Align flow chart shapes and add connectors,87,2016,Advanced,Produce,288,tutorial
+878,en,Create an org chart,114,2016,Intermediate,Produce,189,tutorial
+879,en,Build an org chart using the text pane,80,2016,Advanced,Produce,240,tutorial
+880,en,Build an org chart using SmartArt Tools,36,2016,Intermediate,Produce,309,tutorial
+881,en,Create a template from a presentation,85,2016,Advanced,Produce,189,tutorial
+882,en,Customize the design and layouts,51,2016,Advanced,Produce,306,tutorial
+883,en,Create slide content and save the template,40,2016,Advanced,Produce,290,tutorial
+886,en,How to collaborate: work together or assign parts,233,2016,Beginner,Produce,1821,webcast
+887,en,How to search: find what you need,169,2016,Beginner,Produce,1962,webcast
+888,en,How to produce: finalize reports remotely with your team,152,2016,Beginner,Produce,1744,webcast
+889,en,Messaging tools and solutions,112,2016,Beginner,Produce,1472,webcast
+890,en,Office productivity tools,117,2016,Beginner,Produce,1257,webcast
+891,en,Social networking tools,80,2016,Beginner,Produce,1467,webcast
+892,en,Collaborative and storage tools,110,2016,Beginner,Produce,1460,webcast
+894,en,Office 2016 - new features and enhancements,194,2016,Beginner,Produce,2113,webcast
+895,en,What's new in Outlook 2016,144,2016,Beginner,Produce,908,webcast
+896,en,Outlook 2016 - Discover the calendar and tasks,129,2016,Beginner,Produce,1660,webcast
+897,en,Outlook 2016 - share and collaborate quickly,217,2016,Beginner,Produce,1273,webcast
+899,en,Excel 2016 - Quickly enhance your results,22,2016,Beginner,Produce,706,webcast
+900,en,Get Started Excel 2016 - Easily Create Data Synthesis,33,2016,Beginner,Produce,783,webcast
+901,en,Word 2016 - Introduction to word processing,153,2016,Beginner,Produce,1757,webcast
+902,en,Word 2016 - Discover DTP with word,25,2016,Beginner,Produce,1326,webcast
+911,en,Organize your next team meeting,803,2016,Beginner,Produce,159,use_case
+913,en,Collaborating on a document without confusing the different versions,517,2016,Beginner,Collaboration,164,use_case
+918,en,How to retrieve a document that you forgot to bring along with you,413,2016,Beginner,Collaboration,158,use_case
+919,en,Managing personal and work-related agendas at work,301,2016,Beginner,Collaboration,183,use_case
+920,en,Including a remote participant in a meeting,205,2016,Beginner,Collaboration,117,use_case
+921,en,Discreetly obtaining information while you are in a meeting,148,2016,Beginner,Collaboration,116,use_case
+924,en,Consulting your colleagues calendar,128,2016,Beginner,Collaboration,146,use_case
+925,en,Sending/sharing a large file to/with a contact,528,2016,Beginner,Share,133,use_case
+927,en,How to join a group in Yammer,169,2016,Beginner,Collaboration,190,use_case
+928,en,Discussing and collaborating in a Yammer group,246,2016,Beginner,Collaboration,218,use_case
+929,en,How to create a working and discussion group in Yammer,207,2016,Beginner,Collaboration,203,use_case
+930,en,Sharing contacts,153,2016,Beginner,Share,193,use_case
+932,en,Finding a suitable document template,84,2016,Beginner,Produce,137,use_case
+933,en,Comparing a document that was edited by someone else,79,2016,Beginner,Produce,199,use_case
+934,en,Setting up Automatic Replies (Out of Office) in Outlook,73,2016,Beginner,Communicate,159,use_case
+935,en,Sharing a file from a smartphone,263,2016,Beginner,Share,148,use_case
+936,en,Access your notes from your phone,115,2016,Beginner,Share,171,use_case
+937,en,Using Excel on a phone,56,2016,Beginner,Share,227,use_case
+938,en,My email templates in Webmail,364,2016,Beginner,Produce,113,use_case
+939,en,Accessing Office from 5 Different Terminals,447,2016,Beginner,Produce,156,use_case
+940,en,One location for your documents,467,2016,Beginner,Share,173,use_case
+941,en,Getting an overall view of activity on project files and documents,113,2016,Beginner,Share,182,use_case
+1923,en,Stay updated on labour law,102,2017,Beginner,Share,213,use_case
+1924,en,Manage workshop retreats about training,71,2017,Beginner,Share,181,use_case
+1925,en,Coordinate a recruitment,115,2017,Beginner,Discover,194,use_case
+1926,en,Lead a market study,82,2017,Beginner,Discover,223,use_case
+1927,en,Prepare big events,103,2017,Beginner,Organize,197,use_case
+1928,en,A marketing plan within a short period of time,398,2017,Beginner,Share,194,use_case
+1929,en,Write a document at the last minute,217,2017,Beginner,Share,153,use_case
+1930,en,Work efficiently in delegation and communication,115,2017,Beginner,Share,173,use_case
+1931,en,Format documents quickly,81,2017,Beginner,Share,175,use_case
+1933,en,Finalise and present your financial closing,57,2017,Beginner,Share,171,use_case
+1934,en,Collect data easily,123,2017,Beginner,Analysis,156,use_case
+1935,en,Organise meetings for new projects,323,2017,Beginner,Organize,168,use_case
+1936,en,Follow the lifetime of a project,168,2017,Beginner,Organize,114,use_case
+1937,en,Be reactive to changes,380,2017,Beginner,Organize,129,use_case
+1939,en,Uses by job role: Human resources,26,2017,Beginner,Organize,2761,webcast
+1941,en,Uses by job role: Assistant(s),78,2017,Beginner,Organize,2380,webcast
+1942,en,Uses by job role: Marketing and communication,20,2017,Beginner,Organize,2646,webcast
+1944,en,Groups - Be more efficient with group working,17,2017,Beginner,Organize,1618,webcast
+1946,en,Outlook 2016 - Optimize your organization,13,2017,Beginner,Organize,1253,webcast
+1947,en,Planner - Follow the tasks of his team on a daily basis,30,2017,Beginner,Organize,1387,webcast
+1948,en,PowerPoint - Save time with themes and templates,11,2017,Beginner,Organize,1338,webcast
+1950,en,OneNote 2016 - Discover the notes tool,14,2017,Beginner,Organize,1677,webcast
+1951,en,Skype for business - Advanced users,116,2017,Beginner,Organize,1797,webcast
+3310,en,Downloading and installing,86,2017,Beginner,Organize,94,tutorial
+3311,en,Achieving a first date proposal,79,2017,Beginner,Organize,261,tutorial
+3312,en,Responding to an invitation,92,2017,Beginner,Organize,85,tutorial
+3313,en,Customising default options,109,2017,Intermediate,Organize,208,tutorial
+3374,en,Organizing a teammates tasks,801,2017,Beginner,Organize,293,use_case
+4403,en,Starting with planner,137,2017,Beginner,Discover,268,tutorial
+4404,en,Creating compartments to organise tasks,50,2017,Beginner,Organize,405,tutorial
+4405,en,Enrich tasks content,49,2017,Beginner,Organize,348,tutorial
+4406,en,Displaying the progress of your plan,41,2017,Beginner,Organize,257,tutorial
+4407,en,Advanced tasks,27,2017,Intermediate,Organize,198,tutorial
+4408,en,"Deleting a task, a compartment or a plan",36,2017,Intermediate,Organize,205,tutorial
+4409,en,Planner and transverse applications,44,2017,Intermediate,Organize,283,tutorial
+4410,en,Introduction,50,2017,Beginner,Discover,181,tutorial
+4411,en,Making a call,61,2017,Beginner,Communicate,162,tutorial
+4412,en,Receiving and managing a call,29,2017,Beginner,Communicate,160,tutorial
+4413,en,Managing two calls,24,2017,Beginner,Communicate,114,tutorial
+4414,en,Transferring a call,29,2017,Beginner,Communicate,240,tutorial
+4415,en,Conference call,50,2017,Beginner,Communicate,134,tutorial
+4416,en,Forwarding your calls,24,2017,Intermediate,Communicate,231,tutorial
+4417,en,Following up missed calls,22,2017,Intermediate,Communicate,284,tutorial
+4418,en,Discovering the interface,141,2017,Intermediate,Organize,291,tutorial
+4419,en,Creating a project,60,2017,Intermediate,Organize,229,tutorial
+4420,en,Customising the interface,36,2017,Intermediate,Organize,190,tutorial
+4421,en,Creating the project tasks,131,2017,Intermediate,Organize,318,tutorial
+4422,en,Creating a group,92,2017,Beginner,Collaboration,158,tutorial
+4423,en,Having a conversation within a group,83,2017,Beginner,Collaboration,201,tutorial
+4424,en,Accessing applications from a group,83,2017,Beginner,Collaboration,119,tutorial
+7104,en,Introducing Skype for Business,193,2017,Beginner,Discover,99,tutorial
+7105,en,Managing contacts,77,2017,Beginner,Organize,86,tutorial
+7106,en,Creating contact groups,80,2017,Beginner,Organize,69,tutorial
+7107,en,Using the business card,79,2017,Beginner,Communicate,59,tutorial
+7108,en,Defining or changing your presence and availability,63,2017,Beginner,Customize,77,tutorial
+7109,en,Checking someone's availability,47,2017,Beginner,Communicate,58,tutorial
+7110,en,Sending an instant message to one or more contacts or to a group,75,2017,Beginner,Communicate,124,tutorial
+7111,en,Sending and receiving audio or video calls,76,2017,Beginner,Communicate,97,tutorial
+7112,en,Setting up a Skype meeting in Outlook,72,2017,Intermediate,Communicate,135,tutorial
+7113,en,Attend a meeting,66,2017,Beginner,Communicate,93,tutorial
+7114,en,Manage meeting attendees,48,2017,Intermediate,Customize,121,tutorial
+7115,en,Presenting a PowerPoint file,50,2017,Intermediate,Communicate,107,tutorial
+7116,en,Presenting a program,43,2017,Intermediate,Communicate,82,tutorial
+7117,en,Presenting the desktop,73,2017,Intermediate,Communicate,53,tutorial
+7118,en,Sharing an interactive whiteboard,85,2017,Intermediate,Communicate,85,tutorial
+7119,en,Transferring files,43,2017,Intermediate,Communicate,99,tutorial
+7120,en,Changing your photo,59,2017,Beginner,Customize,40,tutorial
+7121,en,Configuring your conversation history,72,2017,Intermediate,Customize,81,tutorial
+7122,en,Configuring Skype for Business audio and video settings and other options,67,2017,Intermediate,Customize,134,tutorial
+7626,en,Discovering the Outlook 2016 interface,404,2017,Beginner,Communicate,174,tutorial
+7627,en,Ribbon preview,153,2017,Beginner,Communicate,175,tutorial
+7628,en,Manage displays,137,2017,Beginner,Communicate,146,tutorial
+7629,en,Create an e-mail message,105,2017,Beginner,Communicate,166,tutorial
+7630,en,Process a received message,77,2017,Beginner,Communicate,122,tutorial
+7631,en,"Attach a message, a contact, a file, or a task",61,2017,Beginner,Communicate,142,tutorial
+7632,en,"Insert elements into the mails (table, graphic, images)",112,2017,Beginner,Communicate,176,tutorial
+7633,en,Creating a draft,66,2017,Beginner,Communicate,84,tutorial
+7634,en,Creating an e-mail template,70,2017,Intermediate,Communicate,76,tutorial
+7635,en,Printing messages,67,2017,Beginner,Communicate,70,tutorial
+7636,en,Saving a message,47,2017,Beginner,Communicate,103,tutorial
+7637,en,Sending automatic replies,56,2017,Intermediate,Communicate,123,tutorial
+7638,en,The Bcc field in detail,74,2017,Intermediate,Communicate,114,tutorial
+7639,en,Organizing in folders,90,2017,Beginner,Communicate,156,tutorial
+7640,en,Sorting & searching,78,2017,Beginner,Communicate,170,tutorial
+7641,en,Using categories,57,2017,Beginner,Communicate,135,tutorial
+7642,en,Using conversation mode,66,2017,Intermediate,Communicate,85,tutorial
+7643,en,Organizing your messages using rules,85,2017,Intermediate,Communicate,174,tutorial
+7644,en,Junk email,77,2017,Beginner,Communicate,136,tutorial
+7645,en,Cleaning your inbox,85,2017,Beginner,Communicate,159,tutorial
+7646,en,Create and add a signature to messages,84,2017,Intermediate,Communicate,81,tutorial
+7647,en,Change the default font for your emails,69,2017,Intermediate,Communicate,69,tutorial
+7648,en,Manage new message notifications,52,2017,Intermediate,Communicate,102,tutorial
+7649,en,Create a task from a message,75,2017,Intermediate,Communicate,134,tutorial
+7650,en,Recover deleted items,91,2017,Intermediate,Communicate,103,tutorial
+7651,en,Recall or replace an e-mail you sent,100,2017,Intermediate,Communicate,85,tutorial
+7652,en,Delay or schedule e-mail sending,64,2017,Intermediate,Communicate,134,tutorial
+7653,en,Conduct surveys,91,2017,Intermediate,Communicate,98,tutorial
+7654,en,Request a read receipt or confirmation of delivery,89,2017,Intermediate,Communicate,138,tutorial
+7655,en,Presentation and discovery of the calendar,65,2017,Beginner,Communicate,86,tutorial
+7656,en,Edit and customize views,65,2017,Beginner,Communicate,84,tutorial
+7657,en,Create an appointment,50,2017,Beginner,Communicate,116,tutorial
+7658,en,Schedule a meeting,90,2017,Beginner,Communicate,110,tutorial
+7659,en,Manage recurring appointments,57,2017,Intermediate,Communicate,132,tutorial
+7660,en,Schedule an online Skype meeting,79,2017,Beginner,Communicate,135,tutorial
+7661,en,Respond to a meeting,84,2017,Beginner,Communicate,48,tutorial
+7662,en,Set or remove reminders,76,2017,Intermediate,Communicate,59,tutorial
+7663,en,"Edit or delete an appointment, meeting or event",56,2017,Intermediate,Communicate,71,tutorial
+7664,en,Using the Scheduling Assistant,60,2017,Intermediate,Communicate,67,tutorial
+7665,en,Sharing the calendar,70,2017,Intermediate,Communicate,131,tutorial
+7666,en,Open a shared calendar,59,2017,Intermediate,Communicate,90,tutorial
+7667,en,Publish the calendar,98,2017,Intermediate,Communicate,80,tutorial
+7668,en,Show other people's calendar,46,2017,Intermediate,Communicate,52,tutorial
+7669,en,Calendar delegation,85,2017,Intermediate,Communicate,88,tutorial
+7670,en,Presentation and discovery of contacts,55,2017,Beginner,Communicate,69,tutorial
+7671,en,Create a contact & add and use contacts,58,2017,Beginner,Communicate,156,tutorial
+7672,en,Import contacts into Outlook,75,2017,Intermediate,Communicate,112,tutorial
+7673,en,Export contacts from Outlook,82,2017,Intermediate,Communicate,69,tutorial
+7674,en,Create a contact group & Communicate through contact groups (distribution list),88,2017,Intermediate,Communicate,202,tutorial
+7675,en,Presentation of the task module,70,2017,Beginner,Communicate,211,tutorial
+7676,en,Create a task and create a recurring task,55,2017,Beginner,Communicate,150,tutorial
+7677,en,Assigning a task,58,2017,Intermediate,Communicate,73,tutorial
+7678,en,Introducing Office 365 Groups,63,2017,Beginner,Collaboration,89,tutorial
+7679,en,Remove a member from a group,46,2017,Intermediate,Organize,29,tutorial
+7680,en,Create a meeting in the group calendar,73,2017,Intermediate,Organize,72,tutorial
+7828,en,Joining Teams,106,2017,Beginner,Communicate,211,use_case
+7829,en,Teams and channels,171,2017,Beginner,Communicate,220,use_case
+12653,en,Get going fast,68,2017,Beginner,Produce,104,tutorial
+12654,en,A first look at Word 2016,51,2017,Beginner,Produce,196,tutorial
+12655,en,How things are organized,34,2017,Beginner,Produce,120,tutorial
+12656,en,A closer look at the ribbon,39,2017,Beginner,Produce,234,tutorial
+12657,en,"Save, export and share",33,2017,Beginner,Produce,128,tutorial
+12658,en,Faster shape formatting and new and modern chart types,53,2017,Beginner,Produce,64,tutorial
+12659,en,Do things quickly with Tell Me,53,2017,Beginner,Produce,64,tutorial
+12660,en,Copy & Paste,48,2017,Beginner,Produce,189,tutorial
+12661,en,Insights into what you're working on,50,2017,Beginner,Produce,36,tutorial
+12662,en,Format a document,96,2017,Beginner,Produce,178,tutorial
+12663,en,Insert items in a document,30,2017,Beginner,Produce,179,tutorial
+12664,en,"Add headers, footers, margins, and rulers to a page",53,2017,Beginner,Produce,165,tutorial
+12665,en,Ink Equation,49,2017,Beginner,Produce,43,tutorial
+12666,en,Custom margin,18,2017,Beginner,Produce,119,tutorial
+12667,en,Custom margin - Default margin,71,2017,Beginner,Produce,66,tutorial
+12668,en,Custom margin - Headers and footers,46,2017,Beginner,Produce,89,tutorial
+12669,en,Use landscape and portrait orientation,66,2017,Intermediate,Produce,208,tutorial
+12670,en,Design considerations for orientation,53,2017,Intermediate,Produce,120,tutorial
+12671,en,Insert and customize a footnote,51,2017,Intermediate,Produce,184,tutorial
+12672,en,"Change footnote font, size, and formatting",59,2017,Beginner,Produce,168,tutorial
+12673,en,Styles,46,2017,Beginner,Produce,109,tutorial
+12674,en,Changing existing styles,41,2017,Beginner,Produce,68,tutorial
+12675,en,Creating Styles,33,2017,Beginner,Produce,63,tutorial
+12676,en,Navigation Pane Part 1 : Rearranging a document,55,2017,Beginner,Produce,152,tutorial
+12677,en,Navigation Pane Part 2 : Search Options,31,2017,Beginner,Produce,95,tutorial
+12678,en,Collapsible headings,105,2017,Beginner,Produce,183,tutorial
+12679,en,Introduction to Tables of Contents,44,2017,Beginner,Produce,177,tutorial
+12680,en,Take tables of contents (TOCs) to the next level,52,2017,Intermediate,Produce,231,tutorial
+12681,en,Add formatting to a TOC,69,2017,Intermediate,Produce,228,tutorial
+12682,en,Advanced tables of contents,44,2017,Beginner,Produce,195,tutorial
+12683,en,Modify a TOC with field codes,40,2017,Beginner,Produce,179,tutorial
+12684,en,Add custom entries to a TOC,53,2017,Beginner,Produce,180,tutorial
+12685,en,Add multiple TOCs to a document,48,2017,Beginner,Produce,299,tutorial
+12686,en,Mail merge,95,2017,Beginner,Produce,231,tutorial
+12687,en,Print letters with mail merge,31,2017,Beginner,Produce,242,tutorial
+12688,en,Print envelopes with mail merge,58,2017,Intermediate,Produce,238,tutorial
+12689,en,Advanced mail merge (Field code),51,2017,Intermediate,Produce,179,tutorial
+12690,en,Create and print labels,47,2017,Beginner,Produce,185,tutorial
+12691,en,Use mail merge to create multiple labels,89,2017,Beginner,Produce,201,tutorial
+12692,en,Format and add a graphic,41,2017,Beginner,Produce,200,tutorial
+12693,en,More options and custom labels,41,2017,Intermediate,Produce,239,tutorial
+12694,en,Work together in real time,45,2017,Intermediate,Produce,100,tutorial
+12695,en,Start working together in a document,34,2017,Beginner,Produce,123,tutorial
+12696,en,Improved version history,98,2017,Beginner,Produce,56,tutorial
+12697,en,Track changes,54,2017,Beginner,Produce,154,tutorial
+12698,en,Incorporate revisions with track changes,40,2017,Beginner,Produce,190,tutorial
+12699,en,Track changes online,41,2017,Beginner,Produce,194,tutorial
+12700,en,Track changes in email with multiple people,39,2017,Beginner,Produce,276,tutorial
+12701,en,Customize track changes,74,2017,Beginner,Produce,138,tutorial
+12702,en,Working with watermarks,21,2017,Beginner,Produce,168,tutorial
+12703,en,Add a logo or other picture,37,2017,Beginner,Produce,197,tutorial
+12704,en,More things you can do with pictures,53,2017,Beginner,Produce,293,tutorial
+15256,en,Create a PivotTable and analyze your data,109,2017,Intermediate,Analyze,95,tutorial
+15257,en,Create a PivotTable report manually,92,2017,Intermediate,Analyze,299,tutorial
+15258,en,"Sort, filter, summarize and calculate your PivoteTable data",71,2017,Intermediate,Analyze,229,tutorial
+15259,en,"Use slicers, timelines and PivotCharts to analyze your pivotetable data",60,2017,Intermediate,Analyze,218,tutorial
+16365,en,Browsing/Navigating home page,66,2017,Beginner,Discover,64,tutorial
+16366,en,Discovery,184,2017,Beginner,Discover,147,tutorial
+16367,en,A detailed Description of the Home Page,110,2017,Beginner,Discover,195,tutorial
+16368,en,Site Presentation,165,2017,Beginner,Discover,241,tutorial
+16369,en,The Search Function,87,2017,Beginner,Research,185,tutorial
+16370,en,Connecting with Other Office 365 Tools,68,2017,Beginner,Produce,151,tutorial
+16371,en,Introduction to the Document Libraries,118,2017,Beginner,Discover,152,tutorial
+16372,en,Adding Items to Libraries,55,2017,Beginner,Produce,135,tutorial
+16373,en,Editing of Items,83,2017,Intermediate,Produce,157,tutorial
+16374,en,Moving and Copying Content,49,2017,Intermediate,Produce,133,tutorial
+16375,en,Sharing a Document,86,2017,Intermediate,Share,157,tutorial
+16376,en,Receiving a Sharing Request,83,2017,Intermediate,Share,99,tutorial
+16377,en,Managing Different Versions of a Document,79,2017,Intermediate,Produce,143,tutorial
+16378,en,Making a Document Read Only,80,2017,Intermediate,Produce,144,tutorial
+16379,en,Synchronizing a Library on Your Computer,120,2017,Intermediate,Organize,108,tutorial
+16380,en,Using Files in a Synchronized Library,49,2017,Intermediate,Produce,118,tutorial
+16381,en,Introduction to Lists,52,2017,Beginner,Discover,102,tutorial
+16382,en,Adding Items to a List,76,2017,Intermediate,Produce,94,tutorial
+16383,en,Editing Items in a List,52,2017,Intermediate,Produce,94,tutorial
+16384,en,Sharing the Items of a List,61,2017,Intermediate,Share,119,tutorial
+16385,en,Adding a Column to a List or Library,62,2017,Intermediate,Produce,176,tutorial
+16386,en,Sorting and Filtering Items,50,2017,Intermediate,Research,145,tutorial
+16387,en,Creating and Managing Displays,52,2017,Intermediate,Customize,161,tutorial
+16388,en,Defining Alerts,54,2017,Intermediate,Organize,136,tutorial
+16389,en,Creating Workflows from a Template,51,2017,Intermediate,Organize,321,tutorial
+16390,en,Creating Workflows from Scratch,61,2017,Intermediate,Organize,178,tutorial
+16391,en,Creating Your Application with PowerApps,180,2017,Intermediate,Produce,253,tutorial
+16535,en,Manage attachments,51,2017,Beginner,Produce,111,tutorial
+24594,en,Getting started with the interface,35,2017,Beginner,Collaboration,194,use_case
+24595,en,I master multitasking,51,2017,Beginner,Share,153,use_case
+24596,en,I browse the internet,25,2017,Beginner,Research,171,use_case
+31778,en,Teams - Is it a lever to make collaborative work easier,29,2018,Beginner,Research,1688,webcast
+31949,en,Introduction to Windows 10,66,2018,Beginner,Discover,100,tutorial
+31950,en,Whats new in Windows 10,44,2018,Beginner,Discover,128,tutorial
+31951,en,Windows session and sign-in option,24,2018,Beginner,Discover,93,tutorial
+31952,en,Introduction to the Start Menu,42,2018,Beginner,Discover,114,tutorial
+31953,en,Introduction to the File Explorer,48,2018,Beginner,Discover,160,tutorial
+31954,en,Introduction to the Notification Centre,40,2018,Beginner,Discover,131,tutorial
+31955,en,Getting help and first steps with Cortana,57,2018,Beginner,Research,96,tutorial
+31956,en,Introduction to Microsoft Store,24,2018,Beginner,Discover,89,tutorial
+31957,en,Task Manager,30,2018,Beginner,Discover,96,tutorial
+31958,en,Personalising your graphic environment,48,2018,Beginner,Customize,110,tutorial
+31959,en,Personalising and configuring the Start Menu,60,2018,Beginner,Customize,108,tutorial
+31960,en,Personalising the Taskbar,32,2018,Beginner,Customize,106,tutorial
+31961,en,Configuring the Taskbar,22,2018,Intermediate,Customize,90,tutorial
+31962,en,Parameterising and configuring Cortana,27,2018,Intermediate,Customize,116,tutorial
+31963,en,Notification and quick action management,24,2018,Intermediate,Customize,93,tutorial
+31964,en,Application management,19,2018,Intermediate,Customize,85,tutorial
+31965,en,Managing power and sleep,33,2018,Intermediate,Customize,86,tutorial
+31966,en,Configuring Windows Update,18,2018,Intermediate,Customize,87,tutorial
+31967,en,Configuring screen display and resolution,24,2018,Intermediate,Customize,80,tutorial
+31968,en,Adding a printer and defining the default printer,28,2018,Intermediate,Customize,96,tutorial
+31969,en,Configuring the mouse,21,2018,Intermediate,Customize,70,tutorial
+31970,en,The Quick Access panel,50,2018,Beginner,Organize,78,tutorial
+31971,en,Multitask with windows anchoring,40,2018,Beginner,Organize,85,tutorial
+31972,en,Multitask with virtual desktops,34,2018,Beginner,Organize,88,tutorial
+31973,en,Use File History,33,2018,Beginner,Organize,101,tutorial
+31974,en,Set up File History,19,2018,Intermediate,Customize,107,tutorial
+31975,en,Search everything and everywhere,25,2018,Beginner,Research,86,tutorial
+31976,en,Use the People icon from Taskbar,18,2018,Beginner,Communicate,122,tutorial
+31977,en,Work seamlessly across all my devices,46,2018,Beginner,Communicate,81,tutorial
+31978,en,Another way to browse with Microsoft Edge,19,2018,Beginner,Discover,126,tutorial
+31979,en,Read articles without distractions and annotate webpages,38,2018,Beginner,Produce,101,tutorial
+31980,en,Let Cortana to work for you,24,2018,Beginner,Organize,124,tutorial
+31981,en,Work anywhere with OneDrive,21,2018,Beginner,Organize,131,tutorial
+31982,en,Manage files with OneDrive,33,2018,Intermediate,Organize,157,tutorial
+31983,en,Take my notes everywhere,27,2018,Beginner,Organize,144,tutorial
+31984,en,All my emails in one place,35,2018,Intermediate,Communicate,136,tutorial
+31985,en,Use the Calendar application,23,2018,Beginner,Organize,116,tutorial
+31986,en,Manage my photos,23,2018,Beginner,Organize,110,tutorial
+31987,en,Edit and enhance images using the Photos application,44,2018,Intermediate,Produce,176,tutorial
+31988,en,Use the Snipping tool,43,2018,Intermediate,Produce,99,tutorial
+31989,en,Authentication modes,17,2018,Intermediate,Customize,137,tutorial
+31990,en,Manage user accounts,38,2018,Intermediate,Organize,155,tutorial
+31991,en,Reinforce security with Windows Hello and automatic locking,27,2018,Intermediate,Customize,94,tutorial
+31992,en,The Windows Defender Security Center,46,2018,Beginner,Discover,156,tutorial
+31993,en,Pin a site to the start menu and the taskbar,103,2018,Beginner,Organize,46,tutorial
+31994,en,Pin files to the taskbar,66,2018,Beginner,Organize,68,tutorial
+31995,en,Import your favourites from another browser,28,2018,Beginner,Organize,55,tutorial
+31996,en,Default applications,41,2018,Intermediate,Customize,139,tutorial
+31997,en,Background applications,29,2018,Beginner,Customize,47,tutorial
+31998,en,Reset a Microsoft account password,46,2018,Beginner,Produce,62,tutorial
+31999,en,Customize the Send to menu,35,2018,Intermediate,Customize,61,tutorial
+32000,en,Configure your active hours,59,2018,Beginner,Organize,41,tutorial
+32001,en,Change the download folder location,40,2018,Intermediate,Organize,90,tutorial
+32002,en,Compress files,40,2018,Beginner,Produce,66,tutorial
+32003,en,Project a screen,30,2018,Beginner,Organize,106,tutorial
+32004,en,Cancel a stuck print job,22,2018,Beginner,Produce,55,tutorial
+32005,en,Check if you have a 32 or 64-bit version,60,2018,Beginner,Discover,52,tutorial
+32006,en,Share the internet connection,36,2018,Beginner,Share,76,tutorial
+32007,en,Define a restore point and restore the system,61,2018,Intermediate,Produce,93,tutorial
+32008,en,Narrow a search in Windows,29,2018,Intermediate,Produce,63,tutorial
+32009,en,Master Selection methods,31,2018,Beginner,Discover,76,tutorial
+32010,en,Useful keyboard shortcuts,45,2018,Beginner,Discover,137,tutorial
+32012,en,I understand the continuity of experience,26,2018,Beginner,Produce,169,use_case
+32013,en,My data / Applications follow me everywhere,210,2018,Beginner,Produce,182,use_case
+32014,en,I secure my identity,58,2018,Beginner,Analyze,201,use_case
+32015,en,I use Cortana to be more productive,134,2018,Beginner,Organize,179,use_case
+32022,en,General Introduction,166,2018,Beginner,Discover,174,tutorial
+32023,en,Introduction to Power BI Desktop,110,2018,Beginner,Discover,172,tutorial
+32024,en,Introduction to Power BI Building Blocks,101,2018,Beginner,Discover,187,tutorial
+32025,en,Creating your Datasets,72,2018,Beginner,Analyze,146,tutorial
+32026,en,Recovering your Data from different sources,105,2018,Beginner,Analyze,206,tutorial
+32027,en,Introduction to the Query Editor,55,2018,Beginner,Analyze,153,tutorial
+32028,en,"Preparing, cleaning and transforming your Data",74,2018,Beginner,Analyze,282,tutorial
+32029,en,Creating a Report,53,2018,Beginner,Analyze,174,tutorial
+32030,en,Customising your Visuals,64,2018,Beginner,Analyze,178,tutorial
+32031,en,Customising your Report,38,2018,Beginner,Analyze,192,tutorial
+32032,en,Publishing your Report through the Power BI Service,103,2018,Beginner,Analyze,179,tutorial
+32033,en,Creating and configuring a Dashboard,55,2018,Beginner,Analyze,170,tutorial
+32034,en,Manipulating tiles in a Dashboard,28,2018,Beginner,Analyze,206,tutorial
+32035,en,Sharing and publishing your Dashboard,40,2018,Beginner,Analyze,223,tutorial
+32036,en,Consulting and using a Dashboard,25,2018,Beginner,Analyze,188,tutorial
+32037,en,Introduction to Power BI Mobile,48,2018,Beginner,Share,135,tutorial
+32038,en,Power BI - Centralising Your Data and Facilitating its Analysis,124,2018,Intermediate,Analyze,195,use_case
+32039,en,Power BI -Creating an Attractive Dashboard in Less Than 3 Minutes,98,2018,Beginner,Produce,164,use_case
+32040,en,Power BI - Ensuring Safe Data Access by Defining Roles,37,2018,Intermediate,Customize,221,use_case
+32562,en,Survey Your Teams on the New Digital Tools,119,2018,Intermediate,Produce,151,use_case
+32563,en,Having Your Own Video Stream Channel,44,2018,Intermediate,Produce,153,use_case
+32564,en,Teams on the Iphone,455,2018,Intermediate,Produce,149,use_case
+38544,en,Finding and installing Teams for IOS,78,2018,Intermediate,Mobility,69,tutorial
+38545,en,General Information,136,2018,Intermediate,Mobility,194,tutorial
+38546,en,Finding Help,64,2018,Intermediate,Mobility,74,tutorial
+38547,en,Participating in Team discussions,87,2018,Intermediate,Mobility,111,tutorial
+38548,en,Editing messages,68,2018,Intermediate,Mobility,88,tutorial
+38549,en,Creating a New Discussion Channel,77,2018,Intermediate,Mobility,109,tutorial
+38550,en,Looking for Items or People,50,2018,Intermediate,Mobility,67,tutorial
+38551,en,Following conversations and channels,59,2018,Intermediate,Mobility,123,tutorial
+38552,en,Managing a Team's files,66,2018,Intermediate,Mobility,68,tutorial
+38553,en,Team collaboration tools,89,2018,Intermediate,Mobility,90,tutorial
+38554,en,Managing members lists,65,2018,Intermediate,Mobility,49,tutorial
+38555,en,Choosing how to receive notifications,58,2018,Intermediate,Mobility,90,tutorial
+38556,en,Meetings on your mobile device,67,2018,Intermediate,Mobility,96,tutorial
+38557,en,Instant messaging,69,2018,Intermediate,Mobility,80,tutorial
+38558,en,Changing your status,64,2018,Intermediate,Mobility,43,tutorial
+40525,en,Discover the visual tool for decision support,29,2018,Intermediate,Mobility,1156,webcast
+43102,en,Sway - Transforming your static documents into interactive Web content,65,2018,Intermediate,Mobility,203,use_case
+43457,en,Introduction to Teams,467,2018,Intermediate,Collaboration,100,tutorial
+43458,en,Presentation of the desktop application,122,2018,Intermediate,Collaboration,113,tutorial
+43459,en,Finding content and people,105,2018,Intermediate,Communicate,75,tutorial
+43460,en,Getting help,107,2018,Intermediate,Discover,55,tutorial
+43461,en,Creating a team and adding members,180,2018,Intermediate,Collaboration,101,tutorial
+43462,en,Adding channels and tabs,90,2018,Intermediate,Collaboration,89,tutorial
+43463,en,Using and managing channels and tabs,75,2018,Intermediate,Collaboration,98,tutorial
+43464,en,Managing storage spaces in Teams,87,2018,Intermediate,Collaboration,113,tutorial
+43465,en,Managing your teams,116,2018,Intermediate,Organize,110,tutorial
+43466,en,Setting up and customizing your team,99,2018,Intermediate,Customize,64,tutorial
+43467,en,Participating in team conversations,80,2018,Intermediate,Collaboration,79,tutorial
+43468,en,Editing and enhancing your messages,69,2018,Intermediate,Collaboration,92,tutorial
+43469,en,Interacting in a conversation,85,2018,Intermediate,Collaboration,81,tutorial
+43470,en,Moving from a conversation to an online meeting,90,2018,Intermediate,Collaboration,82,tutorial
+43471,en,Sharing your desktop and content,85,2018,Intermediate,Collaboration,96,tutorial
+43472,en,Private and small group chats,70,2018,Intermediate,Collaboration,108,tutorial
+43473,en,Following your activities and your team's activities,97,2018,Intermediate,Collaboration,73,tutorial
+43474,en,Using and co-editing files,69,2018,Intermediate,Collaboration,100,tutorial
+43475,en,Check your events,86,2018,Intermediate,Communicate,86,tutorial
+43476,en,Planning meetings,115,2018,Intermediate,Communicate,117,tutorial
+43477,en,Joining and managing a meeting,58,2018,Intermediate,Communicate,78,tutorial
+43478,en,Modifying application settings,88,2018,Intermediate,Customize,55,tutorial
+43479,en,Choose how to receive notifications,66,2018,Intermediate,Customize,55,tutorial
+43480,en,Using commands and keyboard shortcuts,57,2018,Intermediate,Customize,90,tutorial
+43481,en,Inviting outside participants,154,2018,Intermediate,Collaboration,82,tutorial
+43482,en,Reduce the number of emails in the company,637,2018,Intermediate,Organize,148,use_case
+43483,en,Manage your team meetings in Teams,230,2018,Intermediate,Collaboration,121,use_case
+43484,en,Recovering previous Office 365 Groups,70,2018,Intermediate,Organize,136,use_case
+43485,en,Adding storage spaces in Teams,203,2018,Intermediate,Organize,107,use_case
+43696,en,Sway - Create an interactive panel,18,2018,Intermediate,Organize,1528,webcast
+45028,en,PowerApps - Creating an application for your field agents in just a few minutes,145,2018,Intermediate,Organize,243,use_case
+45040,en,Teams - Collaborate as a team,44,2018,Intermediate,Organize,2041,webcast
+45041,en,Teams - Communicate as a team,21,2018,Intermediate,Organize,2168,webcast
+45042,en,Introduction to Microsoft Stream,47,2018,Intermediate,Discover,173,tutorial
+45043,en,Introduction to the Microsoft Stream Interface,57,2018,Intermediate,Discover,75,tutorial
+45044,en,Creation of a Company-Wide Channel,24,2018,Intermediate,Produce,59,tutorial
+45045,en,Uploading Videos and Setting their Parameters on a Channel,29,2018,Intermediate,Produce,251,tutorial
+45046,en,Viewing Videos,16,2018,Intermediate,Produce,71,tutorial
+45047,en,Video Play Page Options,17,2018,Intermediate,Produce,115,tutorial
+45048,en,Display Videos on a Channel,42,2018,Intermediate,Produce,140,tutorial
+45049,en,Searching Content,40,2018,Intermediate,Research,134,tutorial
+45050,en,Sharing a Video,30,2018,Intermediate,Collaborate,121,tutorial
+45051,en,Creating an Office 365 Group from Stream,25,2018,Intermediate,Produce,158,tutorial
+45052,en,Configuring a Group,19,2018,Intermediate,Collaborate,162,tutorial
+45126,en,Interface presentation,21,2018,Intermediate,Telephony,93,tutorial
+45127,en,Join a schedule meeting,14,2018,Intermediate,Telephony,106,tutorial
+45128,en,Calling thanks to Meet Now,19,2018,Intermediate,Telephony,58,tutorial
+45129,en,Call from the directory,15,2018,Intermediate,Telephony,59,tutorial
+45130,en,Share content,16,2018,Intermediate,Telephony,75,tutorial
+45131,en,Introduction to the Phone,37,2018,Intermediate,Telephony,159,tutorial
+45132,en,Answering a Call,27,2018,Intermediate,Telephony,110,tutorial
+45133,en,Placing a Call,19,2018,Intermediate,Telephony,176,tutorial
+45134,en,Receiving and Managing a Second Call,12,2018,Intermediate,Telephony,69,tutorial
+45135,en,Transferring a Call,15,2018,Intermediate,Telephony,139,tutorial
+45136,en,Conference Calls,14,2018,Intermediate,Telephony,96,tutorial
+45137,en,Adding Contacts,17,2018,Intermediate,Telephony,183,tutorial
+45138,en,Call History,14,2018,Intermediate,Telephony,107,tutorial
+45139,en,Preferences,13,2018,Intermediate,Telephony,116,tutorial
+45140,en,Call Forwarding,19,2018,Intermediate,Telephony,120,tutorial
+45141,en,Programming the Phone Line Keys,53,2018,Intermediate,Telephony,175,tutorial
+45142,en,Introduction to the User Web Page,19,2018,Intermediate,Telephony,57,tutorial
+45150,en,Introduction to the Phone,27,2018,Intermediate,Telephony,161,tutorial
+45151,en,Answering a Call,19,2018,Intermediate,Telephony,107,tutorial
+45152,en,Placing a Call,15,2018,Intermediate,Telephony,154,tutorial
+45153,en,Receiving and Managing a Second Call,16,2018,Intermediate,Telephony,63,tutorial
+45154,en,Transferring a Call,19,2018,Intermediate,Telephony,129,tutorial
+45155,en,Conference Calls,21,2018,Intermediate,Telephony,147,tutorial
+45156,en,Adding Contacts,39,2018,Intermediate,Telephony,157,tutorial
+45157,en,Call History,12,2018,Intermediate,Telephony,92,tutorial
+45158,en,Preferences,11,2018,Intermediate,Telephony,108,tutorial
+45159,en,Call Forwarding,21,2018,Intermediate,Telephony,115,tutorial
+45160,en,Programming the Phone Line Keys,24,2018,Intermediate,Telephony,165,tutorial
+45161,en,Installation and Login,24,2018,Intermediate,Mobility,82,tutorial
+45162,en,Managing Contacts,63,2018,Intermediate,Mobility,100,tutorial
+45163,en,Changing your availability,19,2018,Intermediate,Mobility,86,tutorial
+45164,en,Chat conversations,17,2018,Intermediate,Mobility,100,tutorial
+45165,en,Placing Calls,21,2018,Intermediate,Mobility,181,tutorial
+45166,en,Joining a meeting,22,2018,Intermediate,Mobility,85,tutorial
+45167,en,Configuring Skype for Business,19,2018,Intermediate,Mobility,97,tutorial
+45180,en,Introduction to Skype for Business Online,22,2018,Intermediate,Discover,95,tutorial
+45181,en,Creating a discussion,24,2018,Intermediate,Organize,114,tutorial
+45182,en,Managing Your Status,17,2018,Intermediate,Share,72,tutorial
+45183,en,Planning a Meeting in Outlook Online,25,2018,Intermediate,Share,122,tutorial
+45184,en,Planning a Meeting with Skype for Business Web Scheduler,32,2018,Intermediate,Share,155,tutorial
+45185,en,Participating in a Meeting,14,2018,Intermediate,Communicate,97,tutorial
+45186,en,Managing the Meeting Participants,14,2018,Intermediate,Organize,111,tutorial
+45187,en,Presenting a PowerPoint File,19,2018,Intermediate,Share,88,tutorial
+45188,en,Presenting a Program,13,2018,Intermediate,Share,100,tutorial
+45189,en,Presenting the Desktop,18,2018,Intermediate,Share,56,tutorial
+45190,en,Sharing an interactive table,26,2018,Intermediate,Share,83,tutorial
+45191,en,Programming and Managing a Skype Meeting from any PC,25,2018,Intermediate,Share,156,use_case
+45192,en,How to use a Plantronics Blackwire with Skype Business,58,2018,Intermediate,Telephony,190,use_case
+45193,en,How to use a Plantronics Voyager Legend with Skype Business,62,2018,Intermediate,Telephony,157,use_case
+45194,en,How to use a Plantronics Savi with Skype Business,47,2018,Intermediate,Telephony,182,use_case
+45195,en,How to use a Plantronics Calisto,28,2018,Intermediate,Mobility,118,use_case
+45197,en,Forward your Skype calls to your mobile phone,137,2018,Intermediate,Communicate,154,use_case
+45205,en,Introduction to Sway,116,2018,Intermediate,Communicate,77,tutorial
+45206,en,Accessing the application,37,2018,Intermediate,Communicate,30,tutorial
+45207,en,Introduction to the application,58,2018,Intermediate,Communicate,85,tutorial
+45208,en,Creating and modifying a Sway from the Office 365 Home page,37,2018,Intermediate,Communicate,34,tutorial
+45209,en,Creating a title with a background image,34,2018,Intermediate,Communicate,98,tutorial
+45210,en,Creating a heading and a text card,57,2018,Intermediate,Communicate,81,tutorial
+45211,en,Adding a Stack group card,27,2018,Intermediate,Communicate,97,tutorial
+45212,en,Playing a card using the Design tab,22,2018,Intermediate,Communicate,20,tutorial
+45213,en,Copying a chart in Sway,42,2018,Intermediate,Communicate,45,tutorial
+45214,en,Dragging and dropping an image into an image card,31,2018,Intermediate,Communicate,29,tutorial
+45215,en,Embedding video content,26,2018,Intermediate,Communicate,51,tutorial
+45216,en,Adding and recording an audio file,103,2018,Intermediate,Communicate,72,tutorial
+45217,en,Adding other types of content,65,2018,Intermediate,Communicate,56,tutorial
+45218,en,Viewing your first presentation,17,2018,Intermediate,Communicate,57,tutorial
+45219,en,Creating a Sway in just a few seconds,19,2018,Intermediate,Communicate,45,tutorial
+45220,en,Creating a Sway from a file,33,2018,Intermediate,Communicate,38,tutorial
+45221,en,Formatting a Sway created from a file,17,2018,Intermediate,Communicate,138,tutorial
+45223,en,Copying cards from one Sway to another,81,2018,Intermediate,Communicate,44,tutorial
+45224,en,Duplicating and deleting a Sway,103,2018,Intermediate,Communicate,49,tutorial
+45225,en,Sharing a Sway,25,2018,Intermediate,Communicate,101,tutorial
+45226,en,Exporting a Sway,30,2018,Intermediate,Communicate,48,tutorial
+45227,en,Printing a Sway,22,2018,Intermediate,Communicate,19,tutorial
+45229,en,Creating a Sway template,44,2018,Intermediate,Communicate,55,tutorial
+45230,en,Customising and remixing your Sway,17,2018,Intermediate,Communicate,82,tutorial
+45231,en,Removing the Sway informational footer,60,2018,Intermediate,Communicate,35,tutorial
+45232,en,Enabling autoplay,316,2018,Intermediate,Communicate,42,tutorial
+45233,en,Managing external sharing and external content,41,2018,Intermediate,Communicate,58,tutorial
+45234,en,Preventing particular users from using Sway,32,2018,Intermediate,Communicate,47,tutorial
+46752,en,"Business Teams! Support Your Tenders, Entirely Remotely!",28,2018,Intermediate,Communicate,175,use_case
+46758,en,Finalizing a Business Presentation from Home,30,2018,Intermediate,Communicate,217,use_case
+46759,en,Optimising the Effectiveness of the Business Team,70,2018,Intermediate,Communicate,161,use_case
+46760,en,Teamwork - Guiding and Organizing Your Business Activity,82,2018,Intermediate,Communicate,217,use_case
+46761,en,Teamwork - Improving Collaboration and Facilitating Data Sharing,59,2018,Intermediate,Communicate,225,use_case
+52609,en,Introduction to the course on Forms,148,2018,Intermediate,Discover,83,tutorial
+52610,en,Creating a Form,92,2018,Intermediate,Produce,235,tutorial
+52611,en,Sharing and viewing Responses,51,2018,Intermediate,Share,105,tutorial
+52612,en,Creating a Questionnaire,72,2018,Intermediate,Produce,107,tutorial
+52613,en,Sharing the Questionnaire and Using the Results,39,2018,Intermediate,Share,84,tutorial
+52614,en,Copying and Duplicating a Form,46,2018,Intermediate,Produce,44,tutorial
+52615,en,Collaborating Using Forms,55,2018,Intermediate,Collaborate,57,tutorial
+52616,en,Editing a Form,31,2018,Intermediate,Produce,49,tutorial
+52617,en,Stopping Sharing,28,2018,Intermediate,Share,34,tutorial
+52618,en,Creating and editing a Form from OneDrive,67,2018,Intermediate,Produce,47,tutorial
+52619,en,What the administrator can do,40,2018,Intermediate,Produce,58,tutorial
+56160,en,Facilitating Mobility by Creating Your Own Application,34,2018,Intermediate,Produce,177,use_case
+56161,en,StaffHub - Creating a Digital Work Schedule for Your Field Teams,82,2018,Intermediate,Produce,183,use_case
+56162,en,StaffHub - Communicate Quickly with Your Field Staff,26,2018,Intermediate,Produce,156,use_case
+56163,en,StaffHub - Creating an Unassigned Task,38,2018,Advanced,Produce,138,use_case
+62140,en,General Introduction to Office 365,145,2019,Advanced,Discover,129,tutorial
+62141,en,Office Online Applications,73,2019,Advanced,Discover,97,tutorial
+62142,en,Installing Office on 5 terminals,45,2019,Advanced,Customize,134,tutorial
+62143,en,Installing Office on Your Smartphone,58,2019,Advanced,Customize,63,tutorial
+62144,en,Accessing Other Applications Involving Office 365,46,2019,Advanced,Customize,71,tutorial
+62145,en,Changing the Graphic Design of Your Portal and Start Page,50,2019,Advanced,Customize,56,tutorial
+62146,en,Managing Your Notifications,35,2019,Advanced,Customize,51,tutorial
+62147,en,Managing the Language and Time Zone,48,2019,Advanced,Customize,48,tutorial
+62148,en,Changing Your Password,41,2019,Advanced,Customize,46,tutorial
+62149,en,Accessing Your Office Online Applications,49,2019,Advanced,Discover,82,tutorial
+62150,en,Accessing Your Recent Documents,48,2019,Advanced,Produce,81,tutorial
+62151,en,Managing Your Recent Documents,50,2019,Advanced,Share,192,tutorial
+62152,en,Importing and Creating Documents,46,2019,Advanced,Produce,94,tutorial
+62153,en,Doing a Search,23,2019,Advanced,Research,176,tutorial
+62154,en,Introduction to Your Profile Interface,42,2019,Advanced,Discover,113,tutorial
+62155,en,Managing the Confidentiality Settings in Your Profile,34,2019,Advanced,Customize,64,tutorial
+62156,en,Changing Your Profile Image,28,2019,Advanced,Customize,59,tutorial
+62157,en,Viewing Your Licences and Subscription,43,2019,Advanced,Discover,51,tutorial
+64185,en,Flow - Have new files approved prior to moving them to a dedicated folder,110,2019,Advanced,Discover,156,use_case
+64186,en,Flow - Automatically save all email attachments sent to your inbox,85,2019,Advanced,Discover,149,use_case
+64188,en,Teasing LetSignIt,23,2019,Advanced,Communicate,79,use_case
+64189,en,Webcast Letsignit,8,2019,Advanced,Communicate,404,webcast
+64195,en,About PowerPoint Online,40,2019,Advanced,Discover,197,tutorial
+64196,en,About Word Online,52,2019,Advanced,Discover,118,tutorial
+64197,en,Version History,28,2019,Advanced,Discover,67,tutorial
+64198,en,Top tips for working in Excel Online Part 1,58,2019,Advanced,Discover,136,tutorial
+64199,en,Top tips for working in Excel Online Part 2,55,2019,Advanced,Produce,140,tutorial
+64207,en,On-Slide 3D Model Animation,156,2019,Advanced,New features,45,tutorial
+64216,en,Chat with your co-editors in real-time,181,2019,Advanced,New features,28,tutorial
+64237,en,PivotTable Insertions,41,2019,Advanced,New features,43,tutorial
+64247,en,Quickly sort emails,124,2019,Advanced,New features,27,tutorial
+64248,en,Custom your personal reminders and notifications,79,2019,Advanced,New features,44,tutorial
+64249,en,Automatically mark deleted emails as read,63,2019,Advanced,New features,46,tutorial
+64250,en,Let Outlook read your emails out loud,124,2019,Advanced,New features,32,tutorial
+64251,en,Identify meeting members,54,2019,Advanced,New features,26,tutorial
+64252,en,Prevent recipients from forwarding emails,53,2019,Advanced,New features,34,tutorial
+64253,en,Prevent forwarding of a meeting,54,2019,Advanced,New features,29,tutorial
+64254,en,Discover the new simplified ribbon,55,2019,Advanced,New features,29,tutorial
+64255,en,Display 3 time zones,50,2019,Advanced,New features,37,tutorial
+64256,en,Use dictate to type in Word,64,2019,Advanced,New features,27,tutorial
+64257,en,Chat with co-authors while editing,53,2019,Advanced,New features,29,tutorial
+64258,en,Insert icons,34,2019,Advanced,New features,43,tutorial
+64259,en,Let Word read your documents out loud,35,2019,Advanced,New features,36,tutorial
+64260,en,3D Models,38,2019,Advanced,New features,42,tutorial
+64261,en,Edit document with natural gestures,48,2019,Advanced,New features,34,tutorial
+64262,en,Locate your documents,51,2019,Advanced,New features,20,tutorial
+64263,en,Translate your Word documents into any language,29,2019,Advanced,New features,33,tutorial
+65425,en,How to simultaneously view multiple worksheets,91,2019,Advanced,Produce,205,tutorial
+65426,en,How to track and monitor values with the Watch Window,50,2019,Advanced,Produce,162,tutorial
+65427,en,How to link cells and calculate formulas across multiple worksheets,62,2019,Advanced,Produce,130,tutorial
+65428,en,How to simultaneously edit and calculate formulas across multiple worksheets,94,2019,Advanced,Produce,187,tutorial
+65429,en,How to use 3-D reference or tridimensional formulas,43,2019,Advanced,Produce,181,tutorial
+65430,en,Combine data from multiple worksheets,49,2019,Advanced,Produce,170,tutorial
+65431,en,How to create a table,61,2019,Advanced,Produce,131,tutorial
+65432,en,Functions and formulas,55,2019,Advanced,Produce,204,tutorial
+65433,en,Use slicers to filter data,49,2019,Advanced,Produce,85,tutorial
+66521,en,Work simultaneously with others on a workbook,81,2019,Advanced,New features,43,tutorial
+66848,en,Create a team using an existing team as a template,257,2019,Advanced,New features,43,tutorial
+66849,en,Archive or restore a team,98,2019,Advanced,New features,47,tutorial
+66850,en,Do Not Disturb,97,2019,Advanced,New features,35,tutorial
+66851,en,Schedule a meeting for a large group,82,2019,Advanced,New features,43,tutorial
+66852,en,Blur my background while video conferencing with Teams,364,2019,Advanced,New features,29,tutorial
+66853,en,Disable the sound of a chat,82,2019,Advanced,New features,33,tutorial
+66854,en,Use a Wiki tab in Teams to take notes,97,2019,Advanced,New features,45,tutorial
+66855,en,How to set quiet hours,68,2019,Advanced,New features,32,tutorial
+66856,en,How to search a file in all channels,44,2019,Advanced,New features,29,tutorial
+68599,en,Bookings-Online booking process made easy,18,2019,Advanced,New features,1558,webcast
+70385,en,Skype VS Teams,49,2019,Advanced,New features,1747,webcast
+71636,en,Create an account,31,2019,Advanced,Communicate,68,tutorial
+71637,en,Create my first signature,37,2019,Advanced,Communicate,73,tutorial
+71638,en,Add all employees on Letsignit,59,2019,Advanced,Communicate,62,tutorial
+71639,en,Deploy my first signature,35,2019,Advanced,Communicate,97,tutorial
+71640,en,The business offer,56,2019,Advanced,Communicate,129,tutorial
+71641,en,User experience,35,2019,Beginner,Communicate,54,tutorial
+71642,en,Letsignit benefits,59,2019,Beginner,Communicate,61,tutorial
+80481,en,Run effective meetings with Teams,14,2019,Beginner,Communicate,1925,webcast
+84090,en,Teams - Driving Teams Adoption,66,2019,Beginner,Communicate,1774,webcast
+84715,en,OneDrive - Discover the online storage tool,19,2019,Beginner,Communicate,1562,webcast
+102211,en,How to change my status and view my colleagues availability,121,2019,Beginner,Communicate,88,tutorial
+102212,en,How to create contact groups,125,2019,Beginner,Organize,108,tutorial
+102213,en,How to locate my contacts in Teams,122,2019,Beginner,Communicate,115,tutorial
+102214,en,Schedule a meeting from Outlook,100,2019,Beginner,Collaboration,80,tutorial
+102215,en,Record a meeting,107,2019,Beginner,Collaboration,111,tutorial
+102216,en,How to invite external people to a meeting,116,2019,Beginner,Collaboration,123,tutorial
+102217,en,How to share your screen during a meeting,128,2019,Beginner,Collaboration,104,tutorial
+102218,en,How to retrieve meeting information,113,2019,Beginner,Collaboration,81,tutorial
+102219,en,Create a live event,129,2019,Beginner,Collaboration,262,tutorial
+102220,en,Instant chat with anyone,112,2019,Beginner,Collaboration,96,tutorial
+102221,en,Instant Group Chat,91,2019,Beginner,Collaboration,179,tutorial
+102222,en,Changing devices during calls,125,2019,Beginner,Collaboration,62,tutorial
+102223,en,Delete private conversations,118,2019,Beginner,Collaboration,95,tutorial
+102224,en,Use only Microsoft Teams IM service,124,2019,Beginner,Collaboration,104,tutorial
+117891,en,What are the best practices in Teams ?,43,2019,Beginner,Collaboration,1770,webcast
+124664,en,"Easily capture, classify and find emails and documents with harmon.ie",22,2019,Beginner,Collaboration,95,webcast
+124665,en,Save Sent Email Messages to SharePoint,33,2019,Beginner,Collaboration,94,tutorial
+124666,en,View and Edit Emails and Documents,29,2019,Beginner,Collaboration,141,tutorial
+124667,en,Collaborate on Emails and Documents in Real-Time,47,2019,Beginner,Collaboration,113,tutorial
+124668,en,Send SharePoint Links Instead of Email Attachments,27,2019,Beginner,Collaboration,99,tutorial
+124669,en,Save Office Documents to SharePoint,35,2019,Beginner,Collaboration,102,tutorial
+124670,en,Share Emails and Documents with Other Users,48,2019,Beginner,Collaboration,117,tutorial
+125621,en,Making Phone Calls,109,2019,Beginner,Communicate,97,tutorial
+125622,en,Receiving Phone Calls,45,2019,Beginner,Communicate,44,tutorial
+125623,en,Putting on Hold & Muting Microphone,24,2019,Beginner,Communicate,42,tutorial
+125624,en,Inviting Other People to an Ongoing Call,25,2019,Beginner,Communicate,52,tutorial
+125625,en,Managing Several Calls at the Same Time,32,2019,Beginner,Communicate,68,tutorial
+125626,en,Transferring a Call,23,2019,Beginner,Communicate,101,tutorial
+125627,en,Forwarding Calls to Another Phone Number,17,2019,Beginner,Communicate,46,tutorial
+125628,en,Forwarding Calls to the Voicemail,21,2019,Beginner,Communicate,29,tutorial
+125629,en,Forwarding Calls to a Call Group,23,2019,Beginner,Communicate,92,tutorial
+125630,en,Ringing Another Number Simultaneously,14,2019,Beginner,Communicate,54,tutorial
+125631,en,Turning Off Call Forwarding,7,2019,Beginner,Communicate,50,tutorial
+125632,en,Blocking Specific Phone Numbers,12,2019,Beginner,Communicate,59,tutorial
+125633,en,Adjusting Audio Devices,26,2019,Beginner,Communicate,56,tutorial
+125634,en,Changing Voicemail Greeting,28,2019,Beginner,Communicate,37,tutorial
+125635,en,Accessing the Voicemail,13,2019,Beginner,Communicate,57,tutorial
+125636,en,Receiving Phone Calls on the Mobile Application,20,2019,Beginner,Communicate,61,tutorial
+126654,en,Removing the background of a picture,68,2019,Beginner,New features,41,tutorial
+126655,en,New tab Recording,68,2019,Beginner,New features,43,tutorial
+126656,en,Reusing slides,72,2019,Beginner,New features,37,tutorial
+126657,en,Make your presentation lively with the Zoom function,56,2019,Beginner,New features,41,tutorial
+126658,en,Embed fonts in presentations,75,2019,Beginner,New features,40,tutorial
+126659,en,Instant captions & subtitles in Powerpoint,91,2019,Beginner,New features,43,tutorial
+126660,en,Morph transition,59,2019,Beginner,New features,43,tutorial
+126661,en,Design ideas with Powerpoint,112,2019,Beginner,New features,37,tutorial
+126662,en,Icon insertion,60,2019,Beginner,New features,54,tutorial
+126663,en,Microsoft Search,111,2019,Beginner,New features,34,tutorial
+128684,en,Creating a forecast sheet with Excel,68,2019,Beginner,New features,43,tutorial
+128685,en,Start with Ideas in Excel,137,2019,Beginner,New features,38,tutorial
+128686,en,IFS,109,2019,Beginner,New features,65,tutorial
+128687,en,SWITCH,59,2019,Beginner,New features,63,tutorial
+128688,en,MAXIFS & MINIFS,78,2019,Beginner,New features,66,tutorial
+128689,en,CONCAT,61,2019,Beginner,New features,51,tutorial
+128690,en,TEXTJOIN,67,2019,Beginner,New features,47,tutorial
+128691,en,Map Chart in Excel,67,2019,Beginner,New features,31,tutorial
+128692,en,Funnel Chart,63,2019,Beginner,New features,33,tutorial
+131615,en,Discovering Outlook Online,9,2019,Beginner,New features,1576,webcast
+132588,en,Getting familiar with Office Online,14,2019,Beginner,New features,1698,webcast
+148388,en,Creating Business Solutions with SalesTim,149,2019,Beginner,Other Products,252,tutorial
+148389,en,"Advanced Configuration: Naming Convention, Audience and Security",42,2019,Beginner,Other Products,265,tutorial
+148390,en,SalesTim: adoption and governance driving force for Microsoft Teams,123,2019,Beginner,Other Products,318,use_case
+148391,en,OneDrive & Office Lens  Complete your expense form in 2 min!,584,2019,Beginner,Organize,123,use_case
+148392,en,OneDrive  Find all the documents someone shared with you,88,2019,Beginner,Organize,97,use_case
+149318,en,Powerpoint - Creating and Publishing videos easily,65,2019,Beginner,Produce,176,use_case
+149320,en,Teams Call - Save money by sharing a telephone line,517,2019,Beginner,Communicate,101,use_case
+150399,en,Whiteboard Detection in Teams,81,2019,Beginner,Collaborate,26,tutorial
+150401,en,Automatic Data Entry in Excel,57,2019,Beginner,Produce,41,tutorial
+150402,en,Convert a picture into Data with Excel,89,2019,Beginner,Produce,25,tutorial
+150405,en,Convert handwritten texts or drawings with Powerpoint,35,2019,Beginner,Produce,33,tutorial
+155003,en,The Interface,22,2019,Beginner,Produce,109,tutorial
+155004,en,Save Documents in OneDrive from Other Apps,18,2019,Beginner,Produce,68,tutorial
+155005,en,Create Documents Directly in OneDrive,15,2019,Beginner,Produce,56,tutorial
+155006,en,Open and Edit Documents in OneDrive,12,2019,Beginner,Produce,30,tutorial
+155007,en,Share Documents,14,2019,Beginner,Produce,125,tutorial
+155008,en,Work Offline,17,2019,Beginner,Produce,70,tutorial
+155009,en,Scan documents,18,2019,Beginner,Produce,90,tutorial
+155010,en,Find Documents and Folders Shared with You,7,2019,Beginner,Produce,64,tutorial
+156433,en,Getting Started with Outlook Mobile App,59,2019,Beginner,Discover,113,tutorial
+156434,en,Outlook Mobile for Daily Use,35,2019,Beginner,Communicate,286,tutorial
+156435,en,Go further with Outlook Mobile,34,2019,Beginner,Communicate,144,tutorial
+161362,en,Manage Your Working Time in MyAnalytics,94,2019,Beginner,Produce,34,tutorial
+161396,en,Security Options for Sharing,42,2019,Beginner,Share,114,tutorial
+161397,en,Sync OneDrive for Business to your computer (Windows 10 - 1903),56,2019,Beginner,Organize,153,tutorial
+161398,en,Work with documents in a synced library folder (Windows 10 - 1903),42,2019,Beginner,Produce,137,tutorial
+161399,en,Change location where you sync libraries on your computer (Windows 10 - 1903),76,2019,Beginner,Organize,143,tutorial
+161427,en,Dictate email messages in Outlook,83,2019,Beginner,Organize,34,tutorial
+165678,en,Organize Your Notes,71,2019,Beginner,Mobility,113,tutorial
+165679,en,Take Notes Orally,70,2019,Beginner,Mobility,93,tutorial
+165680,en,Share and Send a Copy of a Page,71,2019,Beginner,Mobility,111,tutorial
+165681,en,Insert Pictures in Your Notes with Your Smartphone,86,2019,Beginner,Mobility,63,tutorial
+165682,en,Insert Links and Documents,70,2019,Beginner,Mobility,95,tutorial
+165683,en,Search Notes,79,2019,Beginner,Mobility,54,tutorial
+165684,en,Create a List of Tasks,51,2019,Beginner,Mobility,65,tutorial
+165685,en,Protect Your Notes with a Password,90,2019,Beginner,Mobility,122,tutorial
+165686,en,Manage Settings,96,2019,Beginner,Mobility,81,tutorial
+165687,en,Move or Delete a Section or a Page,87,2019,Beginner,Mobility,94,tutorial
+179179,en,Get started with Kaizala,62,2019,Beginner,Mobility,66,tutorial
+179180,en,Start a chat,24,2019,Beginner,Mobility,49,tutorial
+179181,en,Set up your profile,23,2019,Beginner,Mobility,64,tutorial
+179182,en,View pending actions,26,2019,Beginner,Mobility,52,tutorial
+179183,en,Use Kaizala actions,86,2019,Beginner,Mobility,60,tutorial
+179184,en,Send an announcement,24,2019,Beginner,Mobility,71,tutorial
+179185,en,Create a job,17,2019,Beginner,Mobility,78,tutorial
+179186,en,Set up a meeting,19,2019,Beginner,Mobility,79,tutorial
+179187,en,Send a photo with location,26,2019,Beginner,Mobility,57,tutorial
+179188,en,Create a quick poll,25,2019,Beginner,Mobility,71,tutorial
+179189,en,Create a survey,28,2019,Beginner,Mobility,86,tutorial
+179190,en,Make attendance,24,2019,Beginner,Mobility,84,tutorial
+179191,en,Make and share a checklist,37,2019,Beginner,Mobility,68,tutorial
+179192,en,Create a quiz,78,2019,Beginner,Mobility,109,tutorial
+179193,en,Request a location,13,2019,Beginner,Mobility,95,tutorial
+179194,en,Share your location,54,2019,Beginner,Mobility,95,tutorial
+179195,en,Submit a bill,38,2019,Beginner,Mobility,60,tutorial
+179196,en,Publish training,67,2019,Beginner,Mobility,142,tutorial
+179197,en,Discover actions and groups,75,2019,Beginner,Mobility,62,tutorial
+179198,en,Create a group,53,2019,Beginner,Mobility,74,tutorial
+179199,en,Create hierarchical groups,70,2019,Beginner,Mobility,70,tutorial
+179200,en,Join a public group,93,2019,Beginner,Mobility,48,tutorial
+179314,en,Introduction to OneNote,235,2019,Beginner,Discover,76,tutorial
+179316,en,Introduction to PowerPoint,104,2019,Beginner,Discover,58,tutorial
+181489,en,Introduction to Word,150,2019,Beginner,Discover,59,tutorial
+181492,en,Introduction to Excel,311,2019,Beginner,Discover,59,tutorial
+182545,en,Introduction to Planner,133,2019,Beginner,Discover,180,tutorial
+182546,en,Introduction to Stream,95,2019,Beginner,Discover,77,tutorial
+182547,en,Introduction to Bookings,89,2019,Beginner,Discover,79,tutorial
+183710,en,Introduction to Flow,85,2019,Beginner,Discover,66,tutorial
+183712,en,Introduction to PowerApps,253,2019,Beginner,Discover,72,tutorial
+183714,en,Introduction to Power Bi,160,2019,Beginner,Discover,89,tutorial
+183716,en,Introduction to Kaizala,274,2019,Beginner,Discover,79,tutorial
+193249,en,Microsoft has announced the phasing out of Skype for Business...,446,2019,Beginner,Communicate,59,use_case
+194559,en,Create private channels,284,2019,Beginner,Collaboration,95,tutorial
+233761,en,Translate Content in Word,58,2020,Beginner,Accessibility,124,tutorial
+233762,en,Translate content into PowerPoint,56,2020,Beginner,Accessibility,69,tutorial
+233763,en,Add a subtitle and translate your presentation in real time,38,2020,Beginner,Accessibility,46,tutorial
+233764,en,Translate your Excel spreadsheets,62,2020,Intermediate,Accessibility,76,tutorial
+233765,en,Translate your emails into Outlook,125,2020,Intermediate,Accessibility,160,tutorial
+233766,en,Use the Translator tool on PC,16,2020,Intermediate,Accessibility,158,tutorial
+233767,en,Instant translation of conversations in the Translator tool,41,2020,Intermediate,Accessibility,105,tutorial
+233768,en,Use the Translator tool on mobile,65,2020,Intermediate,Accessibility,183,tutorial
+233769,en,Instant mobile conversation translation,67,2020,Intermediate,Accessibility,118,tutorial
+233779,en,What is Microsoft To Do?,145,2020,Intermediate,Organize,45,tutorial
+233780,en,Intro to Microsoft To Do Interface,128,2020,Intermediate,Organize,161,tutorial
+233781,en,Create a new task in To Do,72,2020,Intermediate,Organize,141,tutorial
+233782,en,Organize your daily tasks,108,2020,Intermediate,Organize,116,tutorial
+233783,en,Planner Tasks in To Do,97,2020,Intermediate,Organize,112,tutorial
+233784,en,Outlook tasks in To Do,76,2020,Intermediate,Organize,171,tutorial
+233785,en,Manage the most important tasks,87,2020,Intermediate,Organize,98,tutorial
+233786,en,Add dates and deadlines to your tasks,63,2020,Intermediate,Organize,72,tutorial
+233787,en,Create and share to-do lists with others,59,2020,Intermediate,Organize,154,tutorial
+233788,en,Rank your custom lists into groups,99,2020,Intermediate,Organize,56,tutorial
+237390,en,Intro to Microsoft To Do on Mobile,61,2020,Intermediate,Discover,126,tutorial
+237391,en,Create a new task in To Do,59,2020,Intermediate,Organize,141,tutorial
+237392,en,Organize your daily tasks,80,2020,Intermediate,Organize,139,tutorial
+237393,en,Planner Tasks in To Do,56,2020,Intermediate,Organize,109,tutorial
+237394,en,The Outlook tasks in To Do,52,2020,Intermediate,Organize,167,tutorial
+237395,en,Manage the most important tasks,62,2020,Intermediate,Organize,88,tutorial
+237396,en,Add dates and deadlines to your tasks,57,2020,Intermediate,Organize,77,tutorial
+237397,en,Create and share lists with others,66,2020,Intermediate,Organize,170,tutorial
+237398,en,Rank your custom lists into groups,120,2020,Intermediate,Organize,51,tutorial
+244660,en,Moderate chat during a live event,111,2020,Intermediate,Communicate,102,tutorial
+276511,en,A brief background on best safety practices,82,2020,Intermediate,Security,95,tutorial
+276512,en,Different ways to share a document with OneDrive,38,2020,Intermediate,Security,135,tutorial
+276513,en,How to avoid the excessive sharing of my document,35,2020,Intermediate,Security,70,tutorial
+276514,en,How to protect my document with a password,57,2020,Intermediate,Security,63,tutorial
+276515,en,Manage Access,32,2020,Intermediate,Security,61,tutorial
+276516,en,Change access rights,49,2020,Intermediate,Security,71,tutorial
+276517,en,Recover deleted items,58,2020,Intermediate,Security,58,tutorial
+276518,en,Restore OneDrive,58,2020,Intermediate,Security,108,tutorial
+280150,en,General security practices in Outlook,56,2020,Intermediate,Security,63,tutorial
+280151,en,How to protect an email by encryption?,39,2020,Intermediate,Security,161,tutorial
+280152,en,How do I prevent the transfer of an email?,34,2020,Intermediate,Security,127,tutorial
+280153,en,How do I recognize a fraudulent email?,63,2020,Intermediate,Security,121,tutorial
+280154,en,How do I block a sender?,29,2020,Intermediate,Security,61,tutorial
+280155,en,How do I share a document securely with Outlook?,25,2020,Intermediate,Security,109,tutorial
+291933,en,When and why use live events?,178,2020,Intermediate,Communicate,175,tutorial
+291934,en,Plan and launch your live event,120,2020,Intermediate,Communicate,224,tutorial
+291935,en,Start and manage your event on your own,91,2020,Intermediate,Communicate,189,tutorial
+291936,en,Start and manage your event in multiple ways,93,2020,Intermediate,Communicate,125,tutorial
+291937,en,Communicating between presenters and producers,86,2020,Intermediate,Communicate,58,tutorial
+291938,en,Generating live machine translations,159,2020,Intermediate,Communicate,111,tutorial
+291939,en,You are participating in a live event,70,2020,Intermediate,Communicate,110,tutorial
+291940,en,End the event and statistics,97,2020,Intermediate,Communicate,142,tutorial
+291941,en,Create or change a live event strategy,89,2020,Intermediate,Communicate,162,tutorial
+291942,en,Apply a user-specific policy,81,2020,Intermediate,Communicate,103,tutorial
+300236,en,"Do I share with OneDrive, SharePoint, or TEAMS?",155,2020,Intermediate,Collaboration,144,tutorial
+300237,en,Understanding the different types and roles of team sites in SharePoint,83,2020,Intermediate,Collaboration,185,tutorial
+300238,en,Granting access to the SharePoint site to someone outside the company,150,2020,Intermediate,Collaboration,226,tutorial
+300239,en,Sharing a folder or document with someone outside the company,104,2020,Intermediate,Collaboration,224,tutorial
+300240,en,Checking the granted shares,59,2020,Intermediate,Collaboration,147,tutorial
+300241,en,Restricting a document to read-only mode (Extract a document),73,2020,Intermediate,Collaboration,125,tutorial
+300242,en,Restoring an earlier version of your document,83,2020,Intermediate,Collaboration,110,tutorial
+300243,en,Recovering deleted items (Recycle bin and Second-stage recycle bin),102,2020,Intermediate,Collaboration,138,tutorial
+300244,en,Creating a permission group,39,2020,Intermediate,Collaboration,233,tutorial
+300245,en,Creating a personalized permission level,70,2020,Intermediate,Collaboration,166,tutorial
+300246,en,Targeting content using a specific audience,47,2020,Intermediate,Collaboration,215,tutorial
+302012,en,General presentation of the new Yammer,162,2020,Intermediate,New features,123,tutorial
+302013,en,Ask a question,90,2020,Intermediate,New features,43,tutorial
+302014,en,Praise your employees,122,2020,Intermediate,New features,45,tutorial
+302015,en,Create a survey,112,2020,Intermediate,New features,44,tutorial
+302016,en,Like and comment directly from Outlook,109,2020,Intermediate,New features,45,tutorial
+304187,en,Sharing your smartphone's screen,51,2020,Intermediate,New features,54,tutorial
+304188,en,Use a background image during a video call,58,2020,Intermediate,New features,59,tutorial
+304189,en,Simply view conversations in meetings,67,2020,Intermediate,New features,72,tutorial
+304190,en,Upload a folder into Teams,101,2020,Intermediate,New features,33,tutorial
+304191,en,Sync only one channel,105,2020,Intermediate,New features,56,tutorial
+304192,en,Set your status message,102,2020,Intermediate,New features,65,tutorial
+304193,en,Reply to a Teams conversation from an email,130,2020,Intermediate,New features,50,tutorial
+304194,en,Filter the display of you documents,135,2020,Intermediate,New features,81,tutorial
+304195,en,Start an ad hoc meeting,152,2020,Intermediate,New features,94,tutorial
+310859,en,How to launch a New Teams Meeting in Outlook,154,2020,Intermediate,Collaboration,229,tutorial
+312322,en,Understanding and securing information sharing in your instant chats,220,2020,Intermediate,Security,191,tutorial
+312324,en,Secure your teams in Microsoft TEAMS as you create them,304,2020,Intermediate,Security,258,tutorial
+312325,en,Private channels and privacy rules,219,2020,Intermediate,Security,225,tutorial
+316709,en,Share and view your calendar,29,2020,Intermediate,Share,91,use_case
+316760,en,Switch your meeting from PC to smartphone,34,2020,Intermediate,Mobility,86,use_case
+317415,en,Run and generate reports for an entire team,22,2020,Intermediate,Analyze,152,use_case
+317899,en,Get your teams to respond quickly,26,2020,Intermediate,Communicate,143,use_case
+321808,en,Turn on Together Mode!,149,2020,Intermediate,Communicate,21,tutorial
+321809,en,Email a team,114,2020,Intermediate,Communicate,48,tutorial
+321810,en,Pin your important files,165,2020,Intermediate,Organize,34,tutorial
+321811,en,Present Live,27,2020,Intermediate,Produce,193,tutorial
+321909,en,Expand your LinkedIn network via Outlook,172,2020,Intermediate,Communicate,39,tutorial
+321915,en,Daily tracking of staff activity,20,2020,Intermediate,Organize,205,use_case
+321922,en,Scheduling a new team meeting!,22,2020,Intermediate,Organize,188,use_case
+326156,en,Use a smartphone to edit and adjust a presentation,12,2020,Intermediate,Produce,160,use_case
+326690,en,Tardiness Notification,2,2020,Intermediate,Communicate,82,use_case
+326693,en,Use your smartphone to sign an agreement,5,2020,Intermediate,Mobility,125,use_case
+327959,en,Working remotely on the same screen,151,2020,Intermediate,Collaborate,165,use_case
+327960,en,How to get organized with a common calendar,18,2020,Intermediate,Organize,240,use_case
+328057,en,Turn your Excel tables into real lists!,161,2020,Intermediate,Produce,72,tutorial
+328058,en,Visually highlight some files,177,2020,Intermediate,Organize,55,tutorial
+328059,en,Pin your documents to the top of your library list,153,2020,Intermediate,Organize,23,tutorial
+329308,en,You got a busy signal... Try TEAMS!,265,2020,Intermediate,Mobility,99,use_case
+329346,en,Attend online meetings no matter what,284,2020,Intermediate,Mobility,106,use_case
+329347,en,Get an email notification when a document is modified,248,2020,Intermediate,Share,114,use_case
+331355,en,Turn a meeting room into breakout rooms,71,2020,Intermediate,Collaboration,248,tutorial
+346694,en,Assign or switch participants between breakout rooms,151,2021,Intermediate,Collaboration,101,tutorial
+346695,en,Add breakout rooms,163,2021,Intermediate,Collaboration,91,tutorial
+346696,en,Change breakout room settings,157,2021,Intermediate,Collaboration,77,tutorial
+346697,en,A participant wants to go back to the main room,162,2021,Intermediate,Collaboration,102,tutorial
+346698,en,Recover saved items in a breakout room,170,2021,Intermediate,Collaboration,65,tutorial
+370210,en,Teams Introduction,19,2021,Intermediate,Collaboration,137,tutorial
+370211,en,General presentation of the desktop application,1,2021,Intermediate,Collaboration,166,tutorial
+370212,en,Search items or people,,2021,Intermediate,Collaboration,110,tutorial
+370213,en,Create a team and add members,6,2021,Intermediate,Collaboration,160,tutorial
+370214,en,Adding channels and tabs,2,2021,Intermediate,Collaboration,133,tutorial
+370215,en,Use and manage channels and tabs,3,2021,Intermediate,Collaboration,118,tutorial
+370216,en,Manage storage space on TEAMS,1,2021,Intermediate,Collaboration,175,tutorial
+370217,en,Manage your teams,,2021,Intermediate,Collaboration,202,tutorial
+370218,en,Set up and customize your teams,1,2021,Intermediate,Collaboration,159,tutorial
+370219,en,Participate in team discussions,,2021,Intermediate,Collaboration,108,tutorial
+370220,en,Edit and enrich your messages,,2021,Intermediate,Collaboration,165,tutorial
+370221,en,Interact in a conversation,,2021,Intermediate,Collaboration,93,tutorial
+370222,en,From chat to an online meeting,,2021,Intermediate,Collaboration,88,tutorial
+370223,en,Share your screen and content,,2021,Intermediate,Collaboration,94,tutorial
+370224,en,Chat in private or small groups,,2021,Intermediate,Collaboration,137,tutorial
+370225,en,Track your team activities and your own,1,2021,Intermediate,Collaboration,113,tutorial
+370226,en,Use and co-edit files,1,2021,Intermediate,Collaboration,163,tutorial
+370227,en,Consult your events,,2021,Intermediate,Collaboration,141,tutorial
+370228,en,Schedule meetings,,2021,Intermediate,Collaboration,155,tutorial
+370229,en,Adjust meeting options,,2021,Intermediate,Collaboration,159,tutorial
+370230,en,Join a meeting,,2021,Intermediate,Collaboration,96,tutorial
+370231,en,Manage a meeting,,2021,Intermediate,Collaboration,155,tutorial
+370232,en,Share content in meetings,,2021,Intermediate,Collaboration,211,tutorial
+370233,en,Record a meeting in TEAMS,,2021,Intermediate,Collaboration,81,tutorial
+370234,en,Take notes in a meeting,,2021,Intermediate,Collaboration,53,tutorial
+370235,en,Change app settings,,2021,Intermediate,Collaboration,157,tutorial
+370236,en,Choose how to receive notifications,,2021,Beginner,Collaboration,127,tutorial
+370237,en,Use keyboard commands and shortcuts,,2021,Beginner,Collaboration,97,tutorial
+370238,en,Invite people outside your company,1,2021,Beginner,Collaboration,66,tutorial
+370239,en,"Connectors, apps, or tabs? What are their purpose?",,2021,Beginner,Collaboration,96,tutorial
+370240,en,Use connectors to receive notifications,2,2021,Beginner,Collaboration,42,tutorial
+375474,en,Get feedback from your coworkers with Forms questionnaires,,2021,Beginner,Collaboration,145,tutorial
+376891,en,Introducing Outlook Online,56,2021,Beginner,Collaboration,117,tutorial
+376892,en,Locating and sorting emails,49,2021,Beginner,Collaboration,107,tutorial
+376893,en,"Reply, reply all or transfer ?",41,2021,Beginner,Collaboration,108,tutorial
+376894,en,Attachments and sending options,63,2021,Beginner,Collaboration,135,tutorial
+376895,en,Create and integrate a signature,49,2021,Beginner,Collaboration,126,tutorial
+376896,en,Search for emails,48,2021,Beginner,Collaboration,89,tutorial
+376897,en,Gaining time with multiple selection,57,2021,Beginner,Collaboration,101,tutorial
+376898,en,Create and manage your files,49,2021,Beginner,Collaboration,114,tutorial
+376899,en,Create quick access,65,2021,Beginner,Collaboration,81,tutorial
+376900,en,Out of office andautomatic responses,46,2021,Beginner,Collaboration,154,tutorial
+376901,en,Classify and organize yourself through categories,43,2021,Beginner,Collaboration,145,tutorial
+376902,en,Automate the processing of your emails,48,2021,Beginner,Collaboration,203,tutorial
+376903,en,Create a task from an email,45,2021,Beginner,Collaboration,101,tutorial
+376904,en,Manage your tasks with To Do,50,2021,Beginner,Collaboration,120,tutorial
+376905,en,Create tasks,49,2021,Beginner,Collaboration,97,tutorial
+376906,en,Use different calendar display and tools,46,2021,Beginner,Collaboration,137,tutorial
+376907,en,Respond to a meeting invitation,56,2021,Beginner,Collaboration,106,tutorial
+376908,en,Use Outlook Online to schedule a meeting in Teams,40,2021,Beginner,Collaboration,133,tutorial
+376909,en,Share your calendar,37,2021,Beginner,Collaboration,104,tutorial
+376910,en,Set up and manage calendar sharing permissions,40,2021,Beginner,Collaboration,94,tutorial
+376911,en,Introducing the contact tools,46,2021,Beginner,Collaboration,83,tutorial
+376912,en,Add contacts via Outlook Online,54,2021,Beginner,Collaboration,95,tutorial
+376913,en,Manage your contacts,43,2021,Beginner,Collaboration,79,tutorial
+376914,en,Create lists and contact groups,47,2021,Beginner,Collaboration,142,tutorial
+376915,en,What is Microsoft Lists,89,2021,Beginner,Collaboration,97,tutorial
+376916,en,A quick tour of Microsoft Lists interface,85,2021,Beginner,Collaboration,138,tutorial
+376917,en,Creating a list from a template,71,2021,Beginner,Collaboration,59,tutorial
+376918,en,Creating a list from scratch,161,2021,Beginner,Collaboration,47,tutorial
+376919,en,Create a list from an Excel file,121,2021,Beginner,Collaboration,102,tutorial
+376920,en,Add items to a list,142,2021,Beginner,Collaboration,84,tutorial
+376921,en,Change items in the list,207,2021,Beginner,Collaboration,59,tutorial
+376922,en,Add a column to a list,147,2021,Beginner,Collaboration,95,tutorial
+376923,en,Sort and filter a list,110,2021,Beginner,Collaboration,99,tutorial
+376924,en,Share a list,161,2021,Beginner,Collaboration,86,tutorial
+376925,en,Manage the display of a list,169,2021,Beginner,Collaboration,87,tutorial
+376926,en,Use alerts,152,2021,Beginner,Collaboration,89,tutorial
+376927,en,Automate a list with Power Automate,148,2021,Beginner,Collaboration,64,tutorial
+376928,en,Create an app from a list,166,2021,Beginner,Collaboration,63,tutorial
+376929,en,Working together on your lists in TEAMS,194,2021,Beginner,Collaboration,69,tutorial
+385081,en,Manage relations between data sources,21,2021,Beginner,Produce,157,tutorial
+385082,en,What are measures?,1,2021,Beginner,Produce,178,tutorial
+385083,en,Create quick measures,1,2021,Beginner,Produce,182,tutorial
+385084,en,Calculate function,2,2021,Beginner,Produce,262,tutorial
+385085,en,Create dynamic visual title using the Selected Value function,1,2021,Beginner,Produce,342,tutorial
+385086,en,Create slicers,4,2021,Beginner,Produce,235,tutorial
+385087,en,Conditional formatting,1,2021,Beginner,Produce,215,tutorial
+385088,en,Manage interactions,13,2021,Beginner,Produce,116,tutorial
+385089,en,Turn on the drill down feature,5,2021,Beginner,Produce,143,tutorial
+385090,en,Add an alert to a visual,13,2021,Beginner,Produce,144,tutorial
+385091,en,Use the drill down filter,13,2021,Beginner,Produce,281,tutorial
+393125,en,New Interface,66,2021,Beginner,Discover,182,tutorial
+393126,en,Tracking Prevention,72,2021,Beginner,Discover,59,tutorial
+393127,en,Collections,100,2021,Beginner,Customize,233,tutorial
+393128,en,Immersive Reader,80,2021,Beginner,Organize,171,tutorial
+393129,en,Picture in Picture,84,2021,Beginner,Accessibility,66,tutorial
+393130,en,Dark Theme,90,2021,Beginner,Customize,62,tutorial
+393131,en,Progressive Web Apps,96,2021,Beginner,Organize,191,tutorial
+393132,en,Extensions,77,2021,Beginner,Organize,91,tutorial
+393133,en,Grammar Tools,88,2021,Beginner,Accessibility,65,tutorial
+393134,en,Discover Microsoft Search : Smart search for the modern workplace,90,2021,Beginner,Discover,237,tutorial
+403215,en,Create and manage team channel,83,2021,Beginner,Security,111,tutorial
+403216,en,Restrict a folder/document to certain members of your team,21,2021,Beginner,Security,109,tutorial
+403217,en,Restrict a document to reading only,64,2021,Beginner,Security,63,tutorial
+403218,en,Protect a document shared by password,91,2021,Beginner,Security,101,tutorial
+403220,en,Introduce OneNote,,2021,Beginner,Discover,128,tutorial
+403221,en,Organise notes,,2021,Beginner,Produce,177,tutorial
+403222,en,Use page templates,,2021,Beginner,Produce,139,tutorial
+403223,en,Move or delete items,,2021,Beginner,Customize,131,tutorial
+403224,en,Add items,,2021,Beginner,Produce,124,tutorial
+403225,en,Add files,,2021,Beginner,Produce,86,tutorial
+403226,en,Add an Excel spreadsheet,,2021,Beginner,Produce,91,tutorial
+403227,en,Add a Visio diagram,,2021,Beginner,Produce,83,tutorial
+403228,en,Make better tables,,2021,Beginner,Produce,115,tutorial
+403229,en,"Draw, sketch or handwrite notes",,2021,Beginner,Produce,85,tutorial
+403230,en,Insert online videos,,2021,Beginner,Produce,41,tutorial
+403231,en,"Save, share and share everything",,2021,Beginner,Produce,49,tutorial
+403232,en,Research,,2021,Beginner,Produce,73,tutorial
+403233,en,Backup and saving,,2021,Beginner,Collaborate,32,tutorial
+403234,en,Sync and sharing,,2021,Beginner,Produce,28,tutorial
+403235,en,See who's collaborating,,2021,Beginner,Produce,121,tutorial
+403236,en,Password protect your notes,,2021,Beginner,Produce,103,tutorial
+403237,en,Imbrication OneNote / Outlook,,2021,Beginner,Produce,97,tutorial
+403238,en,Imbrication OneNote / Teams,,2021,Beginner,Produce,63,tutorial
+403239,en,Turning web pages into notes,,2021,Beginner,Customize,169,tutorial
+403240,en,Organize your items with tags,,2021,Beginner,Discover,172,tutorial
+403241,en,Send your notes by email,,2021,Beginner,Produce,42,tutorial
+405967,en,"What are the main differences between meetings, webinars and live events",,2021,Beginner,Communicate,146,tutorial
+405968,en,How to set up webinars,,2021,Beginner,Communicate,280,tutorial
+405969,en,How to register to a webinar event as an attendee,,2021,Beginner,Communicate,99,tutorial
+405970,en,How to adjust your meeting options prior to launching a webinar,,2021,Beginner,Communicate,150,tutorial
+405984,en,How to add full interactivity into webinars in Microsoft TEAMS,,2021,Beginner,Communicate,279,tutorial
+419949,en,An Overview of SHIFTS,42,2021,Beginner,Discover,81,tutorial
+419950,en,Interface Introduction of SHIFTS,28,2021,Beginner,Discover,108,tutorial
+419951,en,Shift and its  imbrication with Teams,43,2021,Beginner,Organize,63,tutorial
+419952,en,Create and organise a group,32,2021,Beginner,Produce,90,tutorial
+419953,en,Create a Schedule and Organise it with the Help of Groups,33,2021,Beginner,Produce,102,tutorial
+419954,en,What is an Open Shift?,40,2021,Advanced,Discover,45,tutorial
+419955,en,How to Copy a Schedule,36,2021,Advanced,Produce,39,tutorial
+419956,en,Complete and Share a Schedule,37,2021,Advanced,Produce,122,tutorial
+419957,en,How to Manage Specific Settings,34,2021,Advanced,Customize,123,tutorial
+419958,en,Manage Requests of Holidays and Leaves of Absences,40,2021,Advanced,Organize,58,tutorial
+419959,en,The mobile App with Teams,30,2021,Advanced,Organize,48,tutorial
+419960,en,How Clock In Works,35,2021,Advanced,Produce,22,tutorial
+419961,en,Inform your Team about Changes,34,2021,Advanced,Communicate,42,tutorial
+419962,en,Printing a Schedule,29,2021,Advanced,Share,41,tutorial
+422587,en,Discovery of the interface,23,2021,Advanced,Discover,166,tutorial
+422588,en,Create a new calendar,27,2021,Advanced,Produce,175,tutorial
+422589,en,Publish your Booking page,24,2021,Advanced,Organize,174,tutorial
+422590,en,Add a service,23,2021,Advanced,Produce,123,tutorial
+422591,en,Add staff members,22,2021,Advanced,Produce,177,tutorial
+422592,en,Manage permissions,26,2021,Advanced,Organize,70,tutorial
+422593,en,Create custom fields,22,2021,Advanced,Produce,81,tutorial
+422594,en,Make a reservation Customer,22,2021,Advanced,Produce,133,tutorial
+422595,en,Make a reservation Staff,19,2021,Advanced,Produce,115,tutorial
+422596,en,Manage your availabilities,19,2021,Advanced,Organize,102,tutorial
+422597,en,Integrate Bookings into TEAMS,20,2021,Advanced,Produce,96,tutorial
