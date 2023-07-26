@@ -131,7 +131,7 @@ Dikarenakan keterbatasan sumber daya pada Google Colaboratory, hanya beberapa fi
 
 Hasil dari *merging* ini ditampilkan pada tabel 5 berikut.
 
-Tabel 5. Hasil *merging* yang didapatkan menggunakan metode `head()`.
+Tabel 5. Hasil *merging* yang didapatkan menggunakan metode `head()`. Variabel `prepared_cbf`
 
 | user_id | item_id | rating | duration | Difficulty   | type     |     |
 | ------- | ------- | ------ | -------- | ------------ | -------- | --- |
@@ -203,9 +203,9 @@ Tujuan pembuatan rekomendasi adalah mengidentifikasi N-konten teratas yang memil
 
 Untuk ID pengguna tertentu, indeks baris yang sesuai dari DataFrame profil pengguna diambil. Kemudian skor kesamaan dari matriks kesamaan diekstrak untuk pengguna tertentu tersebut. Berdasarkan skor kesamaan, diidentifikasi indeks konten N teratas yang memiliki nilai kesamaan tertinggi dengan preferensi pengguna. Terakhir, indeks konten dipetakan kembali ke ID item (ID konten) dan mengekstrak nama konten untuk memberikan rekomendasi konten yang telah dipersonalisasi.
 
-Dari hasil pelatihan dapat dilihat *Top 10* rekomendasi yang ditampilkan pada tabel 9 berikut ini.
+Dari hasil pelatihan berdasarkan preferensi dari pengguna dengan `user_id` 274455 dapat dilihat *Top 10* rekomendasi yang ditampilkan pada tabel 9 berikut ini.
 
-Tabel 9. Hasil *Top 10 Recommendation* 
+Tabel 9. Hasil *Top 10 Recommendation* `user_id` 274455
 
 | ID  | Course Title                                  |
 | --- | --------------------------------------------- |
@@ -222,38 +222,37 @@ Tabel 9. Hasil *Top 10 Recommendation*
 
 ## Evaluasi
 
-Evaluasi pada sistem rekomendasi dilakukan dengan metrik *precision*. Metrik tersebut digunakan dengan cara membandingkan antara rekomendasi yang diberikan dengan data konten yang diambil oleh pengguna. Semisal dari 10 rekomendasi, ditemukan bahwa 5 dari rekomendasi digunakan oleh pengguna, artinya presisi dari model rekomendasi adalah 50%
+Evaluasi pada sistem rekomendasi dilakukan dengan metrik *precision*. Metrik tersebut digunakan dengan cara membandingkan antara rekomendasi yang diberikan dengan data konten yang diambil oleh pengguna. Semisal dari 10 rekomendasi, ditemukan bahwa 5 dari rekomendasi digunakan oleh pengguna, artinya presisi dari model rekomendasi adalah 5/10.
 
-Pada studi kasus ini, metrik *precision* dihitung sebagai berikut:
+Rumus dari metrik *precision* ini adalah:
 
-1. Untuk setiap pengguna dalam data *ground truth*:    
-    - Ambil daftar item yang telah pengguna berinteraksi dengan atau beri peringkat tinggi (item-item  relevan).
-    - Ambil daftar item yang direkomendasikan kepada pengguna oleh sistem rekomendasi.
-2. Hitung jumlah item yang relevan dalam rekomendasi. Ini adalah irisan antara himpunan item-item yang relevan dan himpunan item-item yang direkomendasikan.
-3. Hitung precision untuk pengguna tersebut:    
-    - *Precision* = (Jumlah item yang relevan dalam rekomendasi) / (Total jumlah item yang direkomendasikan)
-4. Ulangi langkah 1 hingga 3 untuk semua pengguna dalam data *ground truth*.
-5. Hitung rata-rata *precision* dengan menjumlahkan nilai precision untuk semua pengguna dan membaginya dengan jumlah total pengguna.
-Dari fungsi perhitungan diatas, nilai *precision* akan berbentuk dalam rentang antara 0 dan 1. *Precision* 1 menunjukkan bahwa semua item yang direkomendasikan relevan bagi pengguna, sementara *precision* 0 berarti tidak ada item yang direkomendasikan yang relevan.
+P = Jumlah rekomendasi yang relevan/rekomendasi yang diberikan.
 
-Sebagai contoh pada tabel 10 ditampilkan perbandingan konten yang ditonton dan yang direkomendasikan pada`user 605220`. 
+Pada tahap ini langkah yang dilakukan adalah:
 
-| ID     | Video | Recommendation | Keterangan |
-| ------ | ----- | -------------- | ---------- |
-| 605220 | 197   | 197            | Match      |
-|        | 199   | 199            | Match      |
-|        | 251   | 205            | Unmatched  |
-|        | 513   | -              | Unmatched  | 
+1. Mengambil data `user_id` dan `item_id` dari tabel 5 hasil *merging*. Diberi nama `user_watch_history`
+2. Mencari data `item_id`dengan pengguna `user_id` 274455
+3. Cetak hasil pencarian, ini dicatat sebagai `user_watch_history` milik `user_id` 274455
 
-Hasil dari uji presisi menunjukkan model rekomendasi dapat memberikan rekomendasi akurat sebanyak 2/4 atau 50% (0.5555...) dari data pada penggunaan *explicit rating*. Hal ini bisa terjadi karena kurangnya dimensi yang digunakan pada data `users_profile`.
+Hasil pencarian `user_watch_history` adalah sebagai berikut:
+
+`Watch History for user 274455: [545, *813*, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855]`
+
+Pada hasil rekomendasi untuk pengguna dengan `user-id` 274455, dari 10 rekomendasi yang diberikan pada tabel 9, hanya 1 konten dari rekomendasi tersebut yang muncul pada `user_watch_history` milik pengguna 274455.
+
+Dari hasil diatas dapat diletakkan kedalam persamaan
+
+P = 1/10
+
+Berdasarkan hasil dari perhitungan presisi, ditemukan bahwa presisi hanya 1/10 dari rekomendasi yang diberikan. 
 
 ## Kesimpulan
 
-Sampai disini model telah bekerja dan menghasilkan rekomendasi konten untuk pengguna MOOC Office 365. Karena keterbatasn sumber daya pengolahan data, hanya dilakukan pemodelan dengan satu jenis pendekatan. Berdasarkan hasil. Pada penelitian berikutnya beberapa saran hal yang bisa dilakukan adalah:
+Sampai disini model telah bekerja dan menghasilkan rekomendasi konten untuk pengguna MOOC Office 365. Karena keterbatasan sumber daya pengolahan data, hanya dilakukan pemodelan dengan satu jenis pendekatan. Berdasarkan hasil. Pada penelitian berikutnya beberapa saran hal yang bisa dilakukan adalah:
 
 1. Melakukan pengolahan data deskripsi menggunakan model *Natural Language Processing*.
 2. Melakukan eksperimen pada hubungan antara empat tabel lebih lanjut.
-3. Melakukan pemodelan rekomendasi dengan pendekatan *Collaborative Filtering*
+3. Melakukan pemodelan rekomendasi dengan pendekatan *Collaborative Filtering* 
 
 
 ## References
