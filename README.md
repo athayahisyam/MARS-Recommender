@@ -34,225 +34,178 @@ Salah satu tujuan dari pengembangan sistem rekomendasi adalah mencegah terjadiny
 
 ## Data Understanding
 
-Pada bagian ini akan dijelaskan hasil analisis data univariat dan tahap data *preprocessing*. Dataset yang digunakan adalah dataset dari sistem pembelajaran [Office 365 MOOC](https://dileap.com/en/) yang diselenggarakan oleh Mandarine Academy, University of Lille. Data diterbitkan tahun 2022 [8] dan disimpan pada repositori [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BMY3UD). Data terbagi kedalam empat dataset dalam format *Comma-Separated Value* (CSV), yang disebut *Items*, *Users*, *Implicit Ratings*, dan *Explicit Ratings*. Penjabaran berikut diperoleh dari artikel Hafsa [8].
-
-- *Users*
-
-Tabel ini menampilkan data pengguna pada MOOC Office 365. Tabel 1 menampilkan struktur tabel *Users*.
-
-Tabel 1. Deskripsi Tabel `Users`
-
-| Fitur   | Deskripsi          | Tipe     | `Count` | 
-| ------- | ------------------ | -------- | ------- |
-| User ID | Identifikasi unik  | Int64    | 9902    |
-| Job     | Kategori pekerjaan | Category | 1409    |
-
-Pada tabel 1, dapat dilihat bahwa jumlah pengguna adalah 9902 pengguna. Adapun data pekerjaan tidak sama dengan data pengguna, hal ini disebabkan karena menambahkan pekerjaan pada sistem bukanlah hal yang *mandatory* [8].
-
-- *Items*
-
-Tabel ini menampilkan data konten yang tersimpan pada MOOC Office 365.  Struktur tabel *Items* ditampilkan pada tabel 2. 
+Pada bagian ini akan dijelaskan hasil analisis data univariat dan tahap data *preprocessing*. Dataset yang digunakan adalah dataset dari sistem pembelajaran [Office 365 MOOC](https://dileap.com/en/) yang diselenggarakan oleh Mandarine Academy, University of Lille. Data diterbitkan tahun 2022 [8] dan disimpan pada repositori [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BMY3UD). Data terbagi kedalam empat dataset dalam format *Comma-Separated Value* (CSV), yang disebut *Items*, *Users*, *Implicit Ratings*, dan *Explicit Ratings*. Penjabaran berikut diperoleh dari artikel Hafsa [8]. Karena pada sistem ini akan mengukur kemiripan antar konten atau *content-based filtering* maka tabel yang digunakan hanya tabel `Items`.
+abel ini menampilkan data konten yang tersimpan pada MOOC Office 365.  Struktur tabel *Items* ditampilkan pada tabel 2. 
 
 Tabel 2. Deskripsi Tabel `Items`
 
-| Fitur         | Deskripsi                                | Tipe     | `Count` |
-| ------------- | ---------------------------------------- | -------- | ------- |
-| Item ID       | Identifikasi unik                        | Int64    | 1167    |
-| Language      | Bahasa                                   | Category | 1167    |
-| Title         | Judul konten                             | Text     | 1167    |
-| Views         | Jumlah penonton                          | Int64    | 1119    |
-| Description   | Deskripsi konten                         | Text     | 1009    |
-| Creation Date | Tanggal Unggah konten                    | Date     | 1167    |
-| Duration      | Durasi Konten                            | Int64    | 1167    |
-| Tipe          | Kategori Konten: *Tutorial*, *Use-case*  | Category | 1167    |
-|               | dan *Webcast*                            |          |         |
-| Level         | Kategori Level: *Beginner, Intermediate* | Category | 475     |
-|               | *Advanced* atau *Undefined*              |          |         |
-| Job           | Pekerjaan Terkait                        | Category | 1167    |
-| Software      | Software terkait                         | Category | 1167    |
-| Theme         | Tema Relevan                             | Category | 1167    |
+| Fitur         | Deskripsi                                                             | Tipe     | `Count` |
+| ------------- | --------------------------------------------------------------------- | -------- | ------- |
+| Item ID       | Identifikasi unik                                                     | Int64    | 1165    |
+| Language      | Bahasa                                                                | Category | 1165    |
+| Title         | Judul konten                                                          | Text     | 1165    |
+| Views         | Jumlah penonton                                                       | Int64    | 1117    |
+| Creation Date | Tanggal Unggah konten                                                 | Date     | 1165   |
+| Duration      | Durasi Konten                                                         | Int64    | 1165    |
+| Tipe          | Kategori Konten: *Tutorial*, *Use-case*, dan *Webcast*                | Category | 1165    |
+| Level         | Kategori Level: *Beginner, Intermediate*, *Advanced* atau *Undefined* | Category | 1165     |
+| Theme         | Tema Relevan                                                          | Category | 1165    |
 
-Pada tabel *Items*, terdapat beberapa fitur yang memiliki *null values*:  *Description*, *Level* dan *View*.
+Terdapat beberapa fitur yang berisi tipe kategori, adapun persebaran dari item kategori tersebut ialah:
 
-- *Implicit Ratings*
+- *Language* (Bahasa)
 
-Tabel *implicit ratings* berisi data akses pencarian pengguna pada sistem MOOC. Data bersifat transaksional, dalam artian terdapat data yang duplikatif. Tabel 3 menampilkan struktur tabel *Implicit Ratings*. 
+MOOC ini menggunakan bahasa Inggris sebagai pengantar, maka seluruh item memiliki fitur `en`. Hal ini ditunjukkan pada Gambar 2.
 
-Tabel 3. Tabel *Implicit Rating*
+![Distribusi Bahasa](https://raw.githubusercontent.com/athayahisyam/MARS-Recommender/main/media/lang.png)
 
-| Feature       | Description       | Type  | Count |
-| ------------- | ----------------- | ----- | ----- |
-| Item ID       | Identifikasi Unik | Int64 | 21908 |
-| User ID       | Identifikasi Unik | Int64 | 21908 |
-| Creation Date | Tanggal Event     | Date  | 21908 | 
+Gambar 2. Distribusi Bahasa
 
-- *Explicit Ratings*
+- *Type* (Tipe)
 
-Serupa dengan tabel *Implicit Rating*, Tabel *explicit rating* bersifat transaksional, yang mencatat berapa kali `user` menonton suatu konten. *Rating* yang dimaksud ialah "selesainya `user` dalam menonton `item`" [8]. Karena merupakan catatan transaksi, tabel ini berisi data duplikatif. Tabel 4 menampilkan struktur tabel *explicit rating*.
+Fitur ini berisi jenis konten yang disediakan MOOC, terdapat tiga kategori [8] yaitu:
 
-Tabel 4. Tabel *Explicit Rating*
+1. *Webcast*: Rekaman layar
+2. *Use_case*: Studi Kasus
+3. *Tutorial*: Tutorial penggunaan alat.
 
-| Feature          | Description                      | Type     | `Count` |
-| ---------------- | -------------------------------- | -------- | ------- |
-| Item ID          | Identifikasi Item                | Int64    | 3659    |
-| User ID          | Identifikasi User                | Int64    | 3659    |
-| Watch Percentage | Persentasi selesai menonton      | Float    | 3659    |
-| Rating           | Kategorisasi persentasi menonton | Category | 3659    |
-| Creation Date    | Tanggal event                    | Date     | 3659    |
+Pada Dataset, sebaran dari data tipe ditunjukkan pada Gambar 3.
 
-Setelah dipahami kondisi dataset. Dilakukan preproses dengan membersihkan *null value*.  Preproses utamanya terjadi pada dataset `Items`. 
+![Distribusi Tipe](https://raw.githubusercontent.com/athayahisyam/MARS-Recommender/main/media/type.png)
 
-Pada dataset `Users` preproses yang dilakukan adalah dengan mengabaikan/*drop* fitur pekerjaan. Hal ini dilakukan melihat kondisi yang tidak seimbang antara data yang ada dengan yang tidak ada, dan juga variasi data text yang sudah ada membutuhkan kapabilitas pemrosesan *encoding* yang tidak *feasible*. 
+Gambar 3. Distribusi Tipe Konten
 
-Pada tabel `Items`, preproses yang dilakukan adalah dengan mengisi data *null values* pada data *difficulty* dan *number of views*. Data deskripsi yang memiliki nilai kosong diabaikan/*drop* karena tidak *feasible* untuk diisi. Pada fitur *number of views*, data yang kosong menunjukkan bahwa video belum pernah ditonton, hal yang mungkin terjadi adalah karena video itu baru diunggah atau memang memiliki akses tertutup [8]. Data ini harus tetap diisi untuk mencegah adanya bias pada model. Karena itu, digunakan metode pengisian nilai kosong dengan rata-rata (*Mean-value based imputation*) untuk mengisi nilai kosong ini.
+- *Difficulty* (Tingkat Kesulitan)
 
-Data fitur *difficulty* diisi dengan algoritma *Random Forest*, yang mampu menangkap hubungan kompleks antara variabel dalam dataset, selain itu RF juga menjaga distribusi data. Pada studi kasus ini, fitur-fitur yang digunakan untuk mengisi kategori yang kosong pada variabel *difficulty* adalah *number of views* dan *duration*. Dengan data *train* adalah data yang memiliki fitur *difficulty* terisi dan data *test* berisi data dengan fitur *difficulty* kosong. Hasil dari imputasi menggunakan algoritma RF ditampilkan pada gambar 2 berikut.
+MOOC ini memiliki tiga kategori tingkat kesulitan [8] dalam pembelajaran konten:
 
-![Random Forest Imputation Result](https://raw.githubusercontent.com/athayahisyam/MARS-Recommender/main/media/randomforest_result.png)
+1. *Beginner*: Konten untuk pengguna *tools* pemula
+2. *Intermediate*: Konten untuk yang berpengalaman menggunakan *tools.*
+3. *Advanced*: Konten untuk yang telah memiliki pemahaman dan pendalaman terhadap *tools* yang diajarkan.
 
-Gambar 2. Hasil Imputasi menggunakan Algoritma Random Forest
+Sebaran dari tiga kategori tersebut ditunjukkan dalam Gambar 4.
 
-Dari hasil yang telah diberikan, dapat dilihat bahwa penambahan yang terjadi lebih banyak pada kategorisasi item sebagai level *beginner*.
+![Distribusi Tingkat Kesulitan](https://raw.githubusercontent.com/athayahisyam/MARS-Recommender/main/media/difficulty.png)
 
-Sampai pada tahap ini, preproses data telah dilaksanakan, dan pada subbab berikutnya akan dilakukan *data preparation*.
+Gambar 4. Sebaran Kategori Tingkat Kesulitan
+
+- *Theme* (Tema)
+
+Pada MOOC, suatu konten dikelompokkan dalam kategori tema, menyesuaikan dengan topik, alat dan tingkat kesulitan suatu konten. Fitur ini memiliki jumlah kategori paling besar, hal ini ditunjukkan pada Gambar 5 berikut.
+
+![Distribusi Tema](https://raw.githubusercontent.com/athayahisyam/MARS-Recommender/main/media/theme.png)
+
+Gambar 5. Distribusi Tema
+
+Pada tabel `Items`, preproses yang dilakukan adalah dengan mengisi data *null values* pada fitur *number of views*. Pada fitur *number of views*, data yang kosong menunjukkan bahwa video belum pernah ditonton, hal yang mungkin terjadi adalah karena video itu baru diunggah atau memang memiliki akses tertutup [8]. Data ini harus tetap diisi untuk mencegah adanya bias pada kesamaan kosinus model. Karena itu, digunakan metode pengisian nilai kosong dengan rata-rata (*Mean-value based imputation*) untuk mengisi nilai kosong ini.
 
 ## Data Preparation
 
-Pada tahap ini, dilakukan *data preparation* dengan (1) melakukan *merging*, lalu *one-hot encoding* pada data kategorikal dan pembuatan *user profile*.
+Pada tahap ini, dilakukan *data preparation* dengan melakukan *one-hot encoding* pada data kategorikal.
 
-Dikarenakan keterbatasan sumber daya pada Google Colaboratory, hanya beberapa fitur dari dataset yang digunakan untuk membangun model *Content-Based Filtering*. Fitur fitur yang digunakan adalah sebagai berikut.
+Pada *content-based filtering* fitur yang digunakan untuk mengukur kesamaan (*similarity*) antar *item* pada tabel *Items*. Sesuai dengan deskripsi pada tahap *data understanding*, yang digunakan adalah fitur-fitur pada data *items*. Fitur-fitur tersebut terdiri dari fitur numerik dan fitur kategorikal yang telah melalui tahap *encoding*, sehingga daftar fitur-fitur yang digunakan adalah sebagai berikut. 
 
-1. `user_id`
-2. `item_id`
-3. `rating`
-4. `duration`
-5. `Difficulty`
-6. `type`
+1. `nb_views `
+2. `duration `
+3. `language_en` 
+4. `Difficulty_Advanced `
+5. `Difficulty_Beginner `
+6. `Difficulty_Intermediate` 
+7. `Theme_Accessibility` 
+8. `Theme_Analysis` 
+9. `Theme_Analyze` 
+10. `Theme_Collaborate `
+11. `Theme_Collaboration` 
+12. `Theme_Communicate` 
+13. `Theme_Customize` 
+14. `Theme_Discover` 
+15. `Theme_Mobility` 
+16. `Theme_New features` 
+17. `Theme_Organize `
+18. `Theme_Other Products` 
+19. `Theme_Produce` 
+20. `Theme_Research` 
+21. `Theme_Security` 
+22. `Theme_Share` 
+23. `Theme_Telephony` 
+24. `type_tutorial`
+25. `type_use_case` 
+26. `type_webcast`
 
-Hasil dari *merging* ini ditampilkan pada tabel 5 berikut.
+Penampang dari hasil *encoding* Tabel `Items` tersebut dapat dilihat pada Tabel 1. 
 
-Tabel 5. Hasil *merging* yang didapatkan menggunakan metode `head()`. Variabel `prepared_cbf`
+Tabel 1. Hasil proses *encoding*.
 
-| user_id | item_id | rating | duration | Difficulty   | type     |     |
-| ------- | ------- | ------ | -------- | ------------ | -------- | --- |
-| 224557  | 510     | 10     | 42.0     | Beginner     | tutorial |     |
-| 224557  | 615     | 10     | 57.0     | Beginner     | tutorial |     |
-| 224557  | 7680    | 10     | 72.0     | Intermediate | tutorial |     |
-| 224293  | 510     | 10     | 42.0     | Beginner     | tutorial |     |
-| 224293  | 515     | 10     | 87.0     | Beginner     | tutorial |     |
-
-Setelah dilakukan *merging*, data kategorikal diproses menggunakan *one-hot encoding* yang mengubah tiap kategori `Difficulty` dan `type` menjadi fitur tersendiri dan memberikan nilai 0 atau 1 pada data. Metode tersebut dipilih karena data kategori kurang dari lima, sehingga tidak memberikan penambahan yang signifikan pada fitur. Hasil dari proses ini ditampilkan pada tabel 6. 
-
-Tabel 6. Hasil proses *encoding*.
-
-|user_id|item_id|rating|duration|type_tutorial|type_use_case|type_webcast|Difficulty_Advanced|Difficulty_Beginner|Difficulty_Intermediate|
-|---|---|---|---|---|---|---|---|---|---|
-|224557|510|10|42.0|1|0|0|0|1|0|
-|224557|615|10|57.0|1|0|0|0|1|0|
-|224557|7680|10|72.0|1|0|0|0|0|1|
-|224293|510|10|42.0|1|0|0|0|1|0|
-|224293|515|10|87.0|1|0|0|0|1|0|
-
-*Content-based Filtering* menggunakan data *embedding* fitur konten. Pada tahap berikutnya data *embedding* disusun pada variabel *course features*, yang terdiri dari:
-
-1. `item_id`
-2. `duration`
-3. `Difficulty`
-4. `type`
-
-Karena melibatkan dua fitur kategori, pada tahap ini juga dilakukan *one hot encoding*. Hasil dari kompilasi tabel tersebut ditampilkan pada Tabel 7.
-
-Tabel 7. Tahap pembuatan tabel *course features*
-
-| item_id | duration | Difficulty_Advanced | Difficulty_Beginner | Difficulty_Intermediate | type_tutorial | type_use_case | type_webcast |     |
-| ------- | -------- | ------------------- | ------------------- | ----------------------- | ------------- | ------------- | ------------ | --- |
-| 510     | 0.006719 | 0.0                 | 1.0                 | 0.0                     | 1.0           | 0.0           | 0.0          |     |
-| 511     | 0.030091 | 0.0                 | 1.0                 | 0.0                     | 1.0           | 0.0           | 0.0          |     |
-| 512     | 0.045866 | 0.0                 | 1.0                 | 0.0                     | 1.0           | 0.0           | 0.0          |     |
-| 513     | 0.007888 | 0.0                 | 1.0                 | 0.0                     | 1.0           | 0.0           | 0.0          |     |
-| 514     | 0.042068 | 0.0                 | 1.0                 | 0.0                     | 1.0           | 0.0           | 0.0          |     |
-
-Tahap berikutnya adalah membuat *user profile* yang menghubungkan antara data user dengan durasi, tipe konten dan tingkat kesulitan yang diambil. Hasil dari *user profile* ditampilkan pada tabel 8.
-
-Tabel 8. *User Profile*
-
-| user_id | duration | type_tutorial | type_use_case | type_webcast | Difficulty_Advanced | Difficulty_Beginner | Difficulty_Intermediate |     |
-| ------- | -------- | ------------- | ------------- | ------------ | ------------------- | ------------------- | ----------------------- | --- |
-| 607339  | 238.5    | 1.0           | 0.0           | 0.0          | 1.0                 | 0.0                 | 0.0                     |     |
-| 607825  | 203.0    | 0.0           | 1.0           | 0.0          | 0.0                 | 1.0                 | 0.0                     |     |
-| 608098  | 80.0     | 1.0           | 0.0           | 0.0          | 0.0                 | 1.0                 | 0.0                     |     |
-| 608559  | 102.5    | 1.0           | 0.0           | 0.0          | 0.0                 | 1.0                 | 0.0                     |     |
-| 610262  | 150.5    | 0.5           | 0.5           | 0.0          | 0.0                 | 1.0                 | 0.0                     |     |
+|nb_views|duration|language_en|Difficulty_Advanced|Difficulty_Beginner|Difficulty_Intermediate|Theme_Accessibility|Theme_Analysis|Theme_Analyze|Theme_Collaborate|...|Theme_Organize|Theme_Other Products|Theme_Produce|Theme_Research|Theme_Security|Theme_Share|Theme_Telephony|type_tutorial|type_use_case|type_webcast|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|1114.0|42|1|0|1|0|0|0|0|0|...|0|0|0|0|0|0|0|1|0|0|
+|547.0|122|1|0|1|0|0|0|0|0|...|0|0|0|0|0|0|0|1|0|0|
+|607.0|176|1|0|1|0|0|0|0|0|...|0|0|0|0|0|0|0|1|0|0|
+|278.0|46|1|0|1|0|0|0|0|0|...|0|0|0|0|0|0|0|1|0|0|
+|312.0|163|1|0|1|0|0|0|0|0|...|0|0|0|0|0|0|0|1|0|0|
 
 Sampai pada tahap ini, proses *data preparation* telah selesai, pada subbab berikutnya model dilatih untuk menghasilkan rekomendasi.
 
 ## Modeling
 
-Pada tahap ini dilakukan pelatihan model *Content-based Filtering*. Untuk mengukur similaritas, digunakan *cosine similarity*. Data pada data similaritas kemudian digunakan untuk membangun rekomendasi konten yang kemungkinan juga disukai oleh *user* tertentu. 
+Dalam laporan ini, dijelaskan bagaimana variabel `cosine_similarity` digunakan sebagai bagian dari sistem rekomendasi dengan pendekatan *content-based filtering*. Rekomendasi dibuat berdasarkan fitur-fitur yang terdapat pada setiap *item* yang dalam kasus ini adalah konten video.
 
-Kemiripan kosinus (*cosine similarity*) adalah ukuran kesamaan antara dua vektor bukan nol dalam ruang produk dalam. Dalam konteks *content-based filtering*, metode ini mengukur kesamaan antara `user-profiles` (mewakili preferensi pengguna) dan `course-embeddings` (mewakili karakteristik konten).
+Langkah pertama dalam proses ini adalah mengubah fitur kategorikal menjadi format numerik. Teknik yang digunakan adalah *one-hot encoding*. Dengan teknik ini, vektor fitur baru untuk setiap item dapat dibentuk. Setiap dimensi dalam vektor tersebut menggambarkan fitur tertentu dari item, seperti `nb_views`, `duration`, `Difficulty`, `Theme`, dan `type`.
 
-*Cosine similarity* berkisar dari -1 hingga 1, di mana 1 menunjukkan vektor yang identik (*user-profile* dan *course embedding* memiliki kemiripan yang kuat), 0 menunjukkan vektor bersifat ortogonal (tidak berkorelasi), dan -1 menunjukkan vektor dalam arah yang berlawanan (berbeda secara jauh).
+Setelah vektor-vektor fitur tersebut terbentuk, `cosine_similarity` dihitung antara setiap pasangan item. `Cosine_similarity` adalah ukuran yang menghitung "kosinus sudut" antara dua vektor. Nilainya berkisar antara -1 dan 1, dengan nilai yang lebih tinggi menunjukkan tingkat kesamaan yang lebih besar antara dua item.
 
-*Cosine similarity* umumnya digunakan dalam sistem rekomendasi dengan *content-based filtering* karena bekerja dengan baik dengan data yang sedikit namun berdimensi tinggi, yang tipikal dalam sistem pembelajaran, dimana data yang tersedia hanya sedikit namun terdiri dari ragam fitur. *Cosine similarity* berfokus pada orientasi vektor ketimbang ukuran besarnya, membuatnya cocok untuk membandingkan representasi berbasis fitur (pada studi kasus ini, `user-profiles` dan `course-embeddings`).
+Dengan perhitungan `cosine_similarity`, matriks kesamaan antara *item* dihasilkan. Dalam matriks ini, setiap baris dan kolom mewakili 'item_id', dan setiap sel berisi nilai `cosine_similarity` antara dua item tersebut.
 
-Projek ini menggunakan fungsi `cosine_similarity` dari scikit-learn yang menghitung *cosine similarity* untuk semua pasangan vektor (baris) pada `user-profiles` dan `course-embeddings`.
-Hasilnya adalah matriks kesamaan (*similarity matrix*), di mana setiap baris sesuai dengan skor kesamaan pengguna tertentu dengan semua kursus.
+Dengan matriks kesamaan ini, item yang paling mirip dengan item tertentu dapat dicari. Ketika `item_id` dimasukkan ke dalam fungsi `get_similar_items`, fungsi tersebut mencari item lain yang memiliki nilai `cosine_similarity` tertinggi dengan item tersebut. Hasilnya, daftar `item_id` yang paling mirip diperoleh, yang kemudian dapat direkomendasikan berdasarkan `item_id` yang diberikan. 
 
-Tujuan pembuatan rekomendasi adalah mengidentifikasi N-konten teratas yang memiliki kemiripan yang kuat dengan preferensi pengguna. Rekomendasi yang dipersonalisasi sangat penting untuk memberikan saran konten kepada pengguna yang selaras dengan minat dan preferensi. Dengan menawarkan rekomendasi yang dipersonalisasi, pengalaman pengguna disempurnakan dan kemungkinan keterlibatan dan kepuasan pengguna ditingkatkan.
+Sebagai contoh, apabila pengguna menonton konten dengan ID 825 dengan judul *Insert item in a presentation*, maka fungsi rekomendasi akan memberikan rekomendasi video dengan tema (`Theme`) serupa, karena tema adalah salah satu bagian dari matriks pada *consine similarity*. Detail *item* dengan ID 825 pada daftar *Items* ditampilkan pada tabel 2.
 
-Untuk ID pengguna tertentu, indeks baris yang sesuai dari DataFrame profil pengguna diambil. Kemudian skor kesamaan dari matriks kesamaan diekstrak untuk pengguna tertentu tersebut. Berdasarkan skor kesamaan, diidentifikasi indeks konten N teratas yang memiliki nilai kesamaan tertinggi dengan preferensi pengguna. Terakhir, indeks konten dipetakan kembali ke ID item (ID konten) dan mengekstrak nama konten untuk memberikan rekomendasi konten yang telah dipersonalisasi.
+Tabel 2. Detail Item ID 825
 
-Dari hasil pelatihan berdasarkan preferensi dari pengguna dengan `user_id` 274455 dapat dilihat *Top 10* rekomendasi yang ditampilkan pada tabel 9 berikut ini.
+|item_id                        | name    | Theme |
+| --- | ------------------------------ | ------- | ----- |
+| 825 | Insert items in a presentation | Produce |       |
 
-Tabel 9. Hasil *Top 10 Recommendation* `user_id` 274455
+Dari hasil pelatihan berdasarkan kemiripan fitur dari konten dengan ID 825 dengan konten lain dapat dilihat *Top 10* rekomendasi yang ditampilkan pada tabel 3 berikut ini.
 
-| ID  | Course Title                                  |
-| --- | --------------------------------------------- |
-| 197 | How to communicate: who can help me?          |
-| 199 | How to search: find what you need             |
-| 205 | Office 2016 - new features and enhancements   |
-| 249 | Uses by job role: Human resources             |
-| 250 | Uses by job role: Assistant(s)                |
-| 251 | Uses by job role: Marketing and communication |
-| 585 | Teams - Collaborate as a team                 |
-| 586 | Teams - Communicate as a team                 |
-| 773 | Run effective meetings with Teams             |
-| 835 | Discover the note taking app Name: name       |
+Tabel 3. Hasil *Top 10 Recommendation* berdasarkan tema dari konten ID 825
+
+| item_id | name                                       | Theme    |     |
+| ------- | ------------------------------------------ | -------- | --- |
+| 741     | The SUM function                           | Produce  |     |
+| 752     | Customize charts                           | Produce  |     |
+| 756     | Three ways to add numbers in Excel Online  | Produce  |     |
+| 784     | Manage conditional formatting              | Produce  |     |
+| 831     | Print Notes Pages as handouts              | Produce  |     |
+| 870     | Create custom animations with motion paths | Produce  |     |
+| 4410    | Introduction                               | Discover |     |
+| 12671   | Insert and customize a footnote            | Produce  |     |
+| 12695   | Start working together in a document       | Produce  |     |
+| 65432   | Functions and formulas                     | Produce  |     |
 
 ## Evaluasi
 
-Evaluasi pada sistem rekomendasi dilakukan dengan metrik *precision*. Metrik tersebut digunakan dengan cara membandingkan antara rekomendasi yang diberikan dengan data konten yang diambil oleh pengguna. Semisal dari 10 rekomendasi, ditemukan bahwa 5 dari rekomendasi digunakan oleh pengguna, artinya presisi dari model rekomendasi adalah 5/10.
+Evaluasi pada sistem rekomendasi dilakukan dengan metrik *precision*. Metrik tersebut digunakan dengan cara membandingkan antara `Theme` pada item rekomendasi yang diberikan dengan  `Theme` pada *item* yang diinputkan pada fungsi. Semisal dari 10 rekomendasi, ditemukan bahwa 5 *item* pada kategori `Theme` dari rekomendasi sesuai dengan kategori `Theme` pada *item* yang diinputkan, artinya presisi dari model rekomendasi adalah 5/10.
 
 Rumus dari metrik *precision* ini adalah:
 
 P = Jumlah rekomendasi yang relevan/rekomendasi yang diberikan.
 
-Pada tahap ini langkah yang dilakukan adalah:
-
-1. Mengambil data `user_id` dan `item_id` dari tabel 5 hasil *merging*. Diberi nama `user_watch_history`
-2. Mencari data `item_id`dengan pengguna `user_id` 274455
-3. Cetak hasil pencarian, ini dicatat sebagai `user_watch_history` milik `user_id` 274455
-
-Hasil pencarian `user_watch_history` adalah sebagai berikut:
-
-`Watch History for user 274455: [545, *813*, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855]`
-
-Pada hasil rekomendasi untuk pengguna dengan `user-id` 274455, dari 10 rekomendasi yang diberikan pada tabel 9, hanya 1 konten dari rekomendasi tersebut yang muncul pada `user_watch_history` milik pengguna 274455.
+Melihat perbandingan antara Tabel 2 dan Tabel 3. Kategori `Theme` pada Item dengan ID 825 adalah `Produce`. Pada hasil rekomendasi, dari 10 item yang diberikan, terdapat 9 item dengan kategori `Theme` yang sama, yaitu `Produce`.
 
 Dari hasil diatas dapat diletakkan kedalam persamaan
 
-P = 1/10
+P = 9/10 = 0.9
 
-Berdasarkan hasil dari perhitungan presisi, ditemukan bahwa presisi hanya 1/10 dari rekomendasi yang diberikan. 
+Berdasarkan hasil dari perhitungan presisi, ditemukan bahwa presisi rekomendasi yang diberikan dari kemiripan item dengan ID 825 adalah 9/10 dari rekomendasi yang diberikan. 
 
 ## Kesimpulan
 
-Sampai disini model telah bekerja dan menghasilkan rekomendasi konten untuk pengguna MOOC Office 365. Karena keterbatasan sumber daya pengolahan data, hanya dilakukan pemodelan dengan satu jenis pendekatan. Berdasarkan hasil. Pada penelitian berikutnya beberapa saran hal yang bisa dilakukan adalah:
+Sampai disini model telah bekerja dan menghasilkan rekomendasi konten untuk pengguna MOOC Office 365. Karena keterbatasan sumber daya pengolahan data, hanya dilakukan pemodelan dengan satu jenis pendekatan. Berdasarkan hasil, pada penelitian berikutnya beberapa saran hal yang bisa dilakukan adalah.
 
 1. Melakukan pengolahan data deskripsi menggunakan model *Natural Language Processing*.
 2. Melakukan eksperimen pada hubungan antara empat tabel lebih lanjut.
-3. Melakukan pemodelan rekomendasi dengan pendekatan *Collaborative Filtering* 
+3. Melakukan pemodelan rekomendasi dengan pendekatan *Collaborative Filtering* yang menggabungkan antara data *user* maupun data *rating*. 
 
 
 ## References
